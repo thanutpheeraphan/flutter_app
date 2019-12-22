@@ -3,6 +3,7 @@ import 'package:flutter_app2/home_page.dart';
 import 'package:flutter_app2/schedule_page.dart';
 import 'placeholder_widget.dart';
 
+
 class Home extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
