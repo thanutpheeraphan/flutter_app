@@ -9,17 +9,23 @@ class home_page extends StatefulWidget {
 class _home_pageState extends State<home_page> {
   @override
   Widget build(BuildContext context) {
+    var size = MediaQuery.of(context).size;
+    final double itemHeight = (size.height - kToolbarHeight - 24) / 2;
+    final double itemWidth = size.width / 2;
     var spacecrafts = ["Scientific Programme","Personal Programme","Programme Overview","Kepler","Juno","Casini","Columbia","Challenger","Huygens"];
     var myGridView = new GridView.builder(
+      shrinkWrap: true,
+
       itemCount: spacecrafts.length,
       gridDelegate: new SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
       itemBuilder: (BuildContext context, int index) {
         return new GestureDetector(
           child: new Card(
-            elevation: 5.0,
+            elevation: 3.0,
             child: new Container(
               alignment: Alignment.centerLeft,
-              margin: new EdgeInsets.only(top: 10.0, bottom: 10.0,left: 10.0),
+              margin: new EdgeInsets.only(top: 0.0, bottom: 0.0,left: 8.0),
+              //childAspectRatio: (itemWidth / itemHeight),
               child: new Text(spacecrafts[index]),
             ),
           ),
@@ -34,15 +40,13 @@ class _home_pageState extends State<home_page> {
         );
       },
     );
-    return new Scaffold(
+    return new Column(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: [
+        Image.asset('assets/images/demo-2.jpg'),
+        myGridView,
+      ],
 
-      body: new Center(
-        child: Container(
-          child: Image.asset('assets/images/demo-2.jpg'),
-
-        )
-
-      )
     );
 
   }
