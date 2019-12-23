@@ -18,33 +18,8 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: _children[_currentIndex],
-      bottomNavigationBar: BottomNavigationBar(
-        onTap: onTabTapped, // new
-        currentIndex: _currentIndex, // new
-        items: [
-          BottomNavigationBarItem(
-            icon: new Icon(Icons.home),
-            title: new Text('Home'),
-          ),
-          BottomNavigationBarItem(
-            icon: new Icon(Icons.calendar_today),
-            title: new Text('Schedule'),
-          )
-        ],
-      ),
+
     );
   }
-  void onTabTapped(int index) {
-    setState(() {
-      _currentIndex = index;
-      if(index == 0){
-        print(index );
 
-      }
-      else{
-        print(index );
-      }
-
-    });
-  }
 }
