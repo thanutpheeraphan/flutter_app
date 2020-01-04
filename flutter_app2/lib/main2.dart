@@ -44,19 +44,25 @@ class _HomeState extends State<Home> {
       gridDelegate: new SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
       itemBuilder: (BuildContext context, int index) {
         return new GestureDetector(
+         child: new Container(
+           height: 50,
+             child: new Card(
+               elevation: 5.0,
+               child: new Column(
+                 //Image.asset('assets/images/one.png',height: 60, width: 80),
+                 children: <Widget>[image_list[index],
+                   (new Container(
 
-          child: new Card(
-            elevation: 5.0,
-            child: new Column(
-             //Image.asset('assets/images/one.png',height: 60, width: 80),
-              children: <Widget>[image_list[index],
-                (new Container(
-                alignment: Alignment.centerLeft,
-                margin: new EdgeInsets.only(top: 10.0, bottom: 10.0,left: 10.0),
-                child: new Text(title_list[index]),
-              )),],
-            ),
-          ),
+                     //alignment: Alignment.centerLeft,
+                     alignment: Alignment(0.0, 0.0),
+                     margin: new EdgeInsets.only(top: 10.0,left: 15.0),
+                     child: new Text(title_list[index], style: TextStyle(
+                         fontSize: 15.0
+                     )),
+                   )),],
+               ),
+             )
+         ),
           onTap: () {
             if(index == 0){
               Navigator.push(context,MaterialPageRoute(builder: (context) => zero_route()));
@@ -106,8 +112,8 @@ class _HomeState extends State<Home> {
     );
     var columnview = new Column(children: <Widget>[Image.asset('assets/images/one.png'),myGridView]);
     return new ColumnSuper(
-
-      children: <Widget>[Image.asset('assets/images/one.png',height: 140,width: 140,),myGridView],
+      //separatorOnTop: true,
+      children: <Widget>[Image.asset('assets/images/one.png',height: 140,width: 140, fit: BoxFit.fitWidth),myGridView],
     );
   }
 }
