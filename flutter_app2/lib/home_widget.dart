@@ -17,7 +17,9 @@ class _HomeState extends State<Home> {
   final List<Widget> _children = [home_page(),schedule_page()];
   Widget build(BuildContext context) {
     return Scaffold(
+     // appBar: AppBar(title: const Text("Sample"),),
       body: _children[_currentIndex],
+
 
     );
   }

@@ -1,4 +1,4 @@
-name: flutter_app2
+name: flutter_app3
 description: A new Flutter application.
 
 # The following defines the version and build number for your application.
@@ -17,7 +17,6 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
-  assorted_layout_widgets: ^1.0.14
   flutter:
     sdk: flutter
 
@@ -40,10 +39,6 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-  assets:
-    - assets/images/demo-2.jpg
-    - assets/images/zero.png
-    - assets/images/one.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
