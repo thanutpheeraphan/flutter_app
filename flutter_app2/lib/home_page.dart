@@ -12,7 +12,6 @@ class _home_pageState extends State<home_page> {
   Widget build(BuildContext context) {
     var spacecrafts = ["Scientific Programme","Personal Programme","Programme Overview","Kepler","Juno","Casini","Columbia","Challenger","Huygens"];
     var title_list = ["Scientific Programme","Personal Programme","Programme Overview","Authors","Posters","Venues & Plans","Exhibition","General Information","Programme of Events","Partners","Networking","News"];
-    var icon_lists = [Icons.ac_unit,Icons.supervised_user_circle];
     var new_cards = new Card(
       child: Column(
         mainAxisSize: MainAxisSize.min,

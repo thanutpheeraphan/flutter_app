@@ -44,6 +44,7 @@ flutter:
     - assets/images/demo-2.jpg
     - assets/images/zero.png
     - assets/images/one.png
+    - assets/images/homescreen.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

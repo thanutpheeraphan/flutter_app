@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Flutter GridView',
       home: new Home(),
-      theme: new ThemeData(primaryColor: Colors.deepOrange),
+      theme: new ThemeData(primaryColor: Colors.black),
     );
   }
 }
@@ -37,7 +37,41 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     var image_list = [Image.asset('assets/images/zero.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80)];
     var title_list = ["Scientific Programme","Personal Programme","Programme Overview","Authors","Posters","Venues & Plans","Exhibition","General Information","Programme of Events","Partners","Networking","News"];
+    var newCard1 = new Center(
+      child: Card(
+        child: InkWell(
+          splashColor: Colors.blue.withAlpha(30),
+          onTap: () {
+            print('Card tapped.');
+          },
+          child: Container(
+            width: 300,
+            height: 100,
+            child: Text('A card that can be tapped'),
+          ),
+        ),
+      ),
+    );
 
+    var newGridView = new MaterialApp(
+      home: Scaffold(
+        body: GridView.count(
+          // Create a grid with 2 columns. If you change the scrollDirection to
+          // horizontal, this produces 2 rows.
+          crossAxisCount: 2,
+          // Generate 100 widgets that display their index in the List.
+          children: List.generate(100, (index) {
+            return Center(
+              child: Text(
+                'Hello World'
+              ),
+            );
+          }),
+        ),
+      ),
+    );
+
+    
     var myGridView = new GridView.builder(
       itemCount: title_list.length,
       shrinkWrap: true,
@@ -45,14 +79,14 @@ class _HomeState extends State<Home> {
       itemBuilder: (BuildContext context, int index) {
         return new GestureDetector(
          child: new Container(
-           height: 50,
+           //height: 10,
              child: new Card(
                elevation: 5.0,
                child: new Column(
                  //Image.asset('assets/images/one.png',height: 60, width: 80),
                  children: <Widget>[image_list[index],
                    (new Container(
-
+                      //height: 40,
                      //alignment: Alignment.centerLeft,
                      alignment: Alignment(0.0, 0.0),
                      margin: new EdgeInsets.only(top: 10.0,left: 15.0),
@@ -110,10 +144,15 @@ class _HomeState extends State<Home> {
         );
       },
     );
-    var columnview = new Column(children: <Widget>[Image.asset('assets/images/one.png'),myGridView]);
-    return new ColumnSuper(
+    //var columnview = new Column(children: <Widget>[Image.asset('assets/images/one.png'),myGridView]);
+    var store_grid = new Container(
+      child: myGridView,
+    );
+    return new Column(
       //separatorOnTop: true,
-      children: <Widget>[Image.asset('assets/images/one.png',height: 140,width: 140, fit: BoxFit.fitWidth),myGridView],
+
+
+      children: <Widget>[newCard1,newCard1,Image.asset('assets/images/homescreen.png'),store_grid],
     );
   }
 }
@@ -122,3 +161,6 @@ void main() {
 }
 
 //end
+
+
+
