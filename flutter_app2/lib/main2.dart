@@ -148,7 +148,7 @@ class _HomeState extends State<Home> {
     var store_grid = new Container(
       child: myGridView,
     );
-    return new Column(
+    return new ColumnSuper(
       //separatorOnTop: true,
 
 
