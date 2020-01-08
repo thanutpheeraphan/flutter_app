@@ -45,7 +45,7 @@ class _HomeState extends State<Home> {
             print('Card tapped.');
           },
           child: Container(
-            width: 300,
+            width: 100,
             height: 100,
             child: Text('A card that can be tapped'),
           ),
@@ -53,24 +53,45 @@ class _HomeState extends State<Home> {
       ),
     );
 
-    var newGridView = new MaterialApp(
-      home: Scaffold(
-        body: GridView.count(
-          // Create a grid with 2 columns. If you change the scrollDirection to
-          // horizontal, this produces 2 rows.
-          crossAxisCount: 2,
-          // Generate 100 widgets that display their index in the List.
-          children: List.generate(100, (index) {
-            return Center(
-              child: Text(
-                'Hello World'
-              ),
-            );
-          }),
+    var newGridView = GridView.count(
+      primary: false,
+      padding: const EdgeInsets.all(20),
+      crossAxisSpacing: 10,
+      mainAxisSpacing: 10,
+      crossAxisCount: 2,
+      children: <Widget>[
+        Container(
+          padding: const EdgeInsets.all(8),
+          child: const Text('He\'d have you all unravel at the'),
+          color: Colors.teal[100],
         ),
-      ),
+        Container(
+          padding: const EdgeInsets.all(8),
+          child: const Text('Heed not the rabble'),
+          color: Colors.teal[200],
+        ),
+        Container(
+          padding: const EdgeInsets.all(8),
+          child: const Text('Sound of screams but the'),
+          color: Colors.teal[300],
+        ),
+        Container(
+          padding: const EdgeInsets.all(8),
+          child: const Text('Who scream'),
+          color: Colors.teal[400],
+        ),
+        Container(
+          padding: const EdgeInsets.all(8),
+          child: const Text('Revolution is coming...'),
+          color: Colors.teal[500],
+        ),
+        Container(
+          padding: const EdgeInsets.all(8),
+          child: const Text('Revolution, they...'),
+          color: Colors.teal[600],
+        ),
+      ],
     );
-
     
     var myGridView = new GridView.builder(
       itemCount: title_list.length,
@@ -151,8 +172,8 @@ class _HomeState extends State<Home> {
     return new ColumnSuper(
       //separatorOnTop: true,
 
-
-      children: <Widget>[newCard1,newCard1,Image.asset('assets/images/homescreen.png'),store_grid],
+//newCard1,Image.asset('assets/images/homescreen.png'),store_grid
+      children: <Widget>[ myGridView],
     );
   }
 }
