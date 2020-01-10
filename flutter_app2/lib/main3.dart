@@ -105,44 +105,36 @@ class _HomeState extends State<Home> {
           mainAxisSpacing: 10.0,
           crossAxisSpacing: 10.0,
         ),
-    children: <Widget>[   _buildContainer(),
-      _buildContainer(),
-      _buildContainer(),
-      _buildContainer(),
-      _buildContainer(),
-      _buildContainer(),
-      _buildContainer(),
-      _buildContainer(),
-      _buildContainer(),]);
+        children: <Widget>[newCard1,newCard1,newCard1,newCard1,newCard1,newCard1,newCard1,newCard1,]);
 
 
 
-    
+
     var myGridView = new GridView.builder(
       itemCount: title_list.length,
       shrinkWrap: true,
       gridDelegate: new SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
       itemBuilder: (BuildContext context, int index) {
         return new GestureDetector(
-         child: new Container(
-           //height: 10,
-             child: new Card(
-               elevation: 5.0,
-               child: new Column(
-                 //Image.asset('assets/images/one.png',height: 60, width: 80),
-                 children: <Widget>[image_list[index],
-                   (new Container(
+          child: new Container(
+            //height: 10,
+              child: new Card(
+                elevation: 5.0,
+                child: new Column(
+                  //Image.asset('assets/images/one.png',height: 60, width: 80),
+                  children: <Widget>[image_list[index],
+                    (new Container(
                       //height: 40,
-                     //alignment: Alignment.centerLeft,
-                     alignment: Alignment(0.0, 0.0),
-                     margin: new EdgeInsets.only(top: 10.0,left: 15.0),
-                     child: new Text(title_list[index], style: TextStyle(
-                         fontSize: 15.0
-                     )),
-                   )),],
-               ),
-             )
-         ),
+                      //alignment: Alignment.centerLeft,
+                      alignment: Alignment(0.0, 0.0),
+                      margin: new EdgeInsets.only(top: 10.0,left: 15.0),
+                      child: new Text(title_list[index], style: TextStyle(
+                          fontSize: 15.0
+                      )),
+                    )),],
+                ),
+              )
+          ),
           onTap: () {
             if(index == 0){
               Navigator.push(context,MaterialPageRoute(builder: (context) => zero_route()));
@@ -185,7 +177,7 @@ class _HomeState extends State<Home> {
 
             print(title_list[index]);
             print(index);
-           //Navigator.push(context,MaterialPageRoute(builder: (context) => SecondRoute()));
+            //Navigator.push(context,MaterialPageRoute(builder: (context) => SecondRoute()));
           },
         );
       },
@@ -194,18 +186,21 @@ class _HomeState extends State<Home> {
     var store_grid = new Container(
       child: myGridView,
     );
-    return new Column(
-      //separatorOnTop: true,
-
-//newCard1,Image.asset('assets/images/homescreen.png'),store_grid
-      children: <Widget>[newGridView2],
+    return Scaffold(
+      body: newGridView2,
+    );
+    return Scaffold(
+      body: new Column(
+        children: <Widget>[Image.asset('assets/images/homescreen.png'),newGridView2
+        ],
+      ),
     );
   }
 }
 void main() {
   runApp(new MyApp());
 }
- 
+
 
 
 
