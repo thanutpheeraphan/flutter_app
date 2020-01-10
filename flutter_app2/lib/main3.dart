@@ -52,6 +52,20 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
+
+    var newCard2 = new Center(
+      child: Card(
+        child: InkWell(
+          splashColor: Colors.blue.withAlpha(30),
+          onTap: () {
+            print('Card tapped.');
+          },
+          child: Column(
+            children: <Widget>[Image.asset('assets/images/onee.png'),Text('Scientific Programme',  style: TextStyle(height: 1, fontSize: 15),textAlign: TextAlign.center,),],
+          ),
+        ),
+      ),
+    );
     Widget _buildContainer() {
       return Container(
         height: 50.0,
@@ -105,7 +119,7 @@ class _HomeState extends State<Home> {
           mainAxisSpacing: 10.0,
           crossAxisSpacing: 10.0,
         ),
-        children: <Widget>[newCard1,newCard1,newCard1,newCard1,newCard1,newCard1,newCard1,newCard1,]);
+        children: <Widget>[newCard1,newCard2,newCard1,newCard2,newCard1,newCard1,newCard1,newCard1,]);
 
 
 
