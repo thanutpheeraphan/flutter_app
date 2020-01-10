@@ -45,9 +45,9 @@ class _HomeState extends State<Home> {
             print('Card tapped.');
           },
           child: Container(
-            width: 100,
-            height: 100,
-            child: Text('A card that can be tapped'),
+            width: 150,
+            height: 150,
+            child: Text('Scientific Programme',  style: TextStyle(height: 1, fontSize: 15),textAlign: TextAlign.center,),
           ),
         ),
       ),
