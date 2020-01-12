@@ -53,7 +53,7 @@ class _HomeState extends State<Home> {
       ),
     );
 
-    var newCard2 = new Center(
+    var newCard2 = new Center( //follows info inside card size
       child: Card(
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
@@ -66,143 +66,62 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
-    Widget _buildContainer() {
-      return Container(
-        height: 50.0,
-        width: 60.0,
-        color: Colors.red,
-      );
-    }
-    var newGridView = GridView.count(
-      primary: false,
-      padding: const EdgeInsets.all(20),
-      crossAxisSpacing: 10,
-      mainAxisSpacing: 10,
-      crossAxisCount: 2,
-      children: <Widget>[
-        Container(
-          padding: const EdgeInsets.all(8),
-          child: const Text('He\'d have you all unravel at the'),
-          color: Colors.teal[100],
+
+    var newCard3 = new Center( //has big size
+      child: Card(
+        color: Color(0xffE2E4BC),
+        child: InkWell(
+          splashColor: Colors.blue.withAlpha(30),
+          onTap: () {
+            print('Card tapped.');
+          },
+          child: Container(
+            width: 133,
+            height: 100,
+            child: Column(
+              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Scientific Programme',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+            ),
+          ),
         ),
-        Container(
-          padding: const EdgeInsets.all(8),
-          child: const Text('Heed not the rabble'),
-          color: Colors.teal[200],
-        ),
-        Container(
-          padding: const EdgeInsets.all(8),
-          child: const Text('Sound of screams but the'),
-          color: Colors.teal[300],
-        ),
-        Container(
-          padding: const EdgeInsets.all(8),
-          child: const Text('Who scream'),
-          color: Colors.teal[400],
-        ),
-        Container(
-          padding: const EdgeInsets.all(8),
-          child: const Text('Revolution is coming...'),
-          color: Colors.teal[500],
-        ),
-        Container(
-          padding: const EdgeInsets.all(8),
-          child: const Text('Revolution, they...'),
-          color: Colors.teal[600],
-        ),
-      ],
+      ),
     );
+
+
     var newGridView2 = new GridView(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+
           crossAxisCount: 3,
-          childAspectRatio: 1.0,
-          mainAxisSpacing: 10.0,
-          crossAxisSpacing: 10.0,
+          childAspectRatio: 1.5,
+          mainAxisSpacing: 0.0,
+          crossAxisSpacing: 0.0,
+
         ),
-        children: <Widget>[newCard1,newCard2,newCard1,newCard2,newCard1,newCard1,newCard1,newCard1,]);
 
+        children: <Widget>[newCard3,newCard3,newCard3,newCard3,newCard3,newCard3,newCard3,newCard3,newCard3,newCard3,newCard3,newCard3]);
 
-
-
-    var myGridView = new GridView.builder(
-      itemCount: title_list.length,
-      shrinkWrap: true,
-      gridDelegate: new SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
-      itemBuilder: (BuildContext context, int index) {
-        return new GestureDetector(
-          child: new Container(
-            //height: 10,
-              child: new Card(
-                elevation: 5.0,
-                child: new Column(
-                  //Image.asset('assets/images/one.png',height: 60, width: 80),
-                  children: <Widget>[image_list[index],
-                    (new Container(
-                      //height: 40,
-                      //alignment: Alignment.centerLeft,
-                      alignment: Alignment(0.0, 0.0),
-                      margin: new EdgeInsets.only(top: 10.0,left: 15.0),
-                      child: new Text(title_list[index], style: TextStyle(
-                          fontSize: 15.0
-                      )),
-                    )),],
-                ),
-              )
-          ),
-          onTap: () {
-            if(index == 0){
-              Navigator.push(context,MaterialPageRoute(builder: (context) => zero_route()));
-            }
-            if(index == 1){
-              Navigator.push(context,MaterialPageRoute(builder: (context) => first_route()));
-            }
-            if(index == 2) {
-              Navigator.push(context,MaterialPageRoute(builder: (context) => SecondRoute()));
-            }
-            if(index == 3){
-              Navigator.push(context,MaterialPageRoute(builder: (context) => third_route()));
-            }
-            if(index == 4){
-              Navigator.push(context,MaterialPageRoute(builder: (context) => fourth_route()));
-            }
-            if(index == 5){
-              Navigator.push(context,MaterialPageRoute(builder: (context) => fifth_route()));
-            }
-            if(index == 6){
-              Navigator.push(context,MaterialPageRoute(builder: (context) => sixth_route()));
-            }
-            if(index == 7){
-              Navigator.push(context,MaterialPageRoute(builder: (context) => seventh_route()));
-            }
-            if(index == 8){
-              Navigator.push(context,MaterialPageRoute(builder: (context) => eighth_route()));
-            }
-            if(index == 9){
-              Navigator.push(context,MaterialPageRoute(builder: (context) => ninth_route()));
-            }
-            if(index == 10){
-              Navigator.push(context,MaterialPageRoute(builder: (context) => tenth_route()));
-            }
-            if(index == 11){
-              Navigator.push(context,MaterialPageRoute(builder: (context) => eleventh_route()));
-            }
-
-
-
-            print(title_list[index]);
-            print(index);
-            //Navigator.push(context,MaterialPageRoute(builder: (context) => SecondRoute()));
-          },
-        );
-      },
+    return new Container(
+      color: Color(0xff0190D6), //official color from poster
+      child: new Column(
+       children: <Widget>[Image.asset('assets/images/homescreen.png'), Flexible(child:newGridView2)],
+      ),
     );
-    //var columnview = new Column(children: <Widget>[Image.asset('assets/images/one.png'),myGridView]);
-    var store_grid = new Container(
-      child: myGridView,
+
+    return new Column(
+
+      mainAxisSize: MainAxisSize.min,
+      children: <Widget>[Image.asset('assets/images/homescreen.png'), Flexible(child:newGridView2)],
     );
+    return Scaffold(
+      body: new Column(
+        children: <Widget>[ Image.asset('assets/images/homescreen.png'), newGridView2],
+      ),
+    );
+
     return Scaffold(
       body: newGridView2,
     );
+
+
     return Scaffold(
       body: new Column(
         children: <Widget>[Image.asset('assets/images/homescreen.png'),newGridView2
