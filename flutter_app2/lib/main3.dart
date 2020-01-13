@@ -37,39 +37,49 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     var image_list = [Image.asset('assets/images/zero.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80)];
     var title_list = ["Scientific Programme","Personal Programme","Programme Overview","Authors","Posters","Venues & Plans","Exhibition","General Information","Programme of Events","Partners","Networking","News"];
-    var newCard1 = new Center(
+
+
+    var newCard3 = new Center( //has big size
       child: Card(
+        color: Color(0xff0190D6),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
             print('Card tapped.');
           },
           child: Container(
-            width: 150,
-            height: 150,
-            child: Text('Scientific Programme',  style: TextStyle(height: 1, fontSize: 15),textAlign: TextAlign.center,),
+            width: 133,
+            height: 100,
+            child: Column(
+              children: <Widget>[Image.asset('assets/images/three.png'), Text('Programme Overview',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+            ),
           ),
         ),
       ),
     );
 
-    var newCard2 = new Center( //follows info inside card size
+    var newCard2 = new Center( //has big size
       child: Card(
+        color: Color(0xff0190D6),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
             print('Card tapped.');
           },
-          child: Column(
-            children: <Widget>[Image.asset('assets/images/onee.png'),Text('Scientific Programme',  style: TextStyle(height: 1, fontSize: 15),textAlign: TextAlign.center,),],
+          child: Container(
+            width: 133,
+            height: 100,
+            child: Column(
+              children: <Widget>[Image.asset('assets/images/two.png'), Text('Personal Programme',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+            ),
           ),
         ),
       ),
     );
 
-    var newCard3 = new Center( //has big size
+    var newCard1 = new Center( //has big size
       child: Card(
-        color: Color(0xffE2E4BC),
+        color: Color(0xff0190D6),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
@@ -85,8 +95,171 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
+    var newCard4 = new Center( //has big size
+      child: Card(
+        color: Color(0xff0190D6),
+        child: InkWell(
+          splashColor: Colors.blue.withAlpha(30),
+          onTap: () {
+            print('Card tapped.');
+          },
+          child: Container(
+            width: 133,
+            height: 100,
+            child: Column(
+              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Authors',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+            ),
+          ),
+        ),
+      ),
+    );
+    var newCard5 = new Center( //has big size
+      child: Card(
+        color: Color(0xff0190D6),
+        child: InkWell(
+          splashColor: Colors.blue.withAlpha(30),
+          onTap: () {
+            print('Card tapped.');
+          },
+          child: Container(
+            width: 133,
+            height: 100,
+            child: Column(
+              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Posters',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+            ),
+          ),
+        ),
+      ),
+    );
+    var newCard6 = new Center( //has big size
+      child: Card(
+        color: Color(0xff0190D6),
+        child: InkWell(
+          splashColor: Colors.blue.withAlpha(30),
+          onTap: () {
+            print('Card tapped.');
+          },
+          child: Container(
+            width: 133,
+            height: 100,
+            child: Column(
+              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Venus & Plans',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+            ),
+          ),
+        ),
+      ),
+    );
+    var newCard7 = new Center( //has big size
+      child: Card(
+        color: Color(0xff0190D6),
+        child: InkWell(
+          splashColor: Colors.blue.withAlpha(30),
+          onTap: () {
+            print('Card tapped.');
+          },
+          child: Container(
+            width: 133,
+            height: 100,
+            child: Column(
+              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Exhibition',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+            ),
+          ),
+        ),
+      ),
+    );
+    var newCard8 = new Center( //has big size
+      child: Card(
+        color: Color(0xff0190D6),
+        child: InkWell(
+          splashColor: Colors.blue.withAlpha(30),
+          onTap: () {
+            print('Card tapped.');
+          },
+          child: Container(
+            width: 133,
+            height: 100,
+            child: Column(
+              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('General Information',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+            ),
+          ),
+        ),
+      ),
+    );
+    var newCard9 = new Center( //has big size
+      child: Card(
+        color: Color(0xff0190D6),
+        child: InkWell(
+          splashColor: Colors.blue.withAlpha(30),
+          onTap: () {
+            print('Card tapped.');
+          },
+          child: Container(
+            width: 133,
+            height: 100,
+            child: Column(
+              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Programme   of Events',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+            ),
+          ),
+        ),
+      ),
+    );
 
+    var newCard10 = new Center( //has big size
+      child: Card(
+        color: Color(0xff0190D6),
+        child: InkWell(
+          splashColor: Colors.blue.withAlpha(30),
+          onTap: () {
+            print('Card tapped.');
+          },
+          child: Container(
+            width: 133,
+            height: 100,
+            child: Column(
+              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Partners',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+            ),
+          ),
+        ),
+      ),
+    );
 
+    var newCard11 = new Center( //has big size
+      child: Card(
+        color: Color(0xff0190D6),
+        child: InkWell(
+          splashColor: Colors.blue.withAlpha(30),
+          onTap: () {
+            print('Card tapped.');
+          },
+          child: Container(
+            width: 133,
+            height: 100,
+            child: Column(
+              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Networking',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+            ),
+          ),
+        ),
+      ),
+    );
+
+    var newCard12 = new Center( //has big size
+      child: Card(
+        color: Color(0xff0190D6),
+        child: InkWell(
+          splashColor: Colors.blue.withAlpha(30),
+          onTap: () {
+            print('Card tapped.');
+          },
+          child: Container(
+            width: 133,
+            height: 100,
+            child: Column(
+              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('News',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+            ),
+          ),
+        ),
+      ),
+    );
     var newGridView2 = new GridView(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
 
@@ -97,10 +270,10 @@ class _HomeState extends State<Home> {
 
         ),
 
-        children: <Widget>[newCard3,newCard3,newCard3,newCard3,newCard3,newCard3,newCard3,newCard3,newCard3,newCard3,newCard3,newCard3]);
+        children: <Widget>[newCard1,newCard2,newCard3,newCard4,newCard5,newCard6,newCard7,newCard8,newCard9,newCard10,newCard11,newCard12]);
 
     return new Container(
-      color: Color(0xff0190D6), //official color from poster
+      color: Color(0xff0190D6), //official color from poster color: Color(0xff0190D6)
       child: new Column(
        children: <Widget>[Image.asset('assets/images/homescreen.png'), Flexible(child:newGridView2)],
       ),
