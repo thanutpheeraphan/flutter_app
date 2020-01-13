@@ -51,6 +51,16 @@ flutter:
     - assets/images/one_3.png
     - assets/images/two.png
     - assets/images/three.png
+    - assets/images/four.png
+    - assets/images/five.png
+    - assets/images/six.png
+    - assets/images/seven.png
+    - assets/images/eight.png
+    - assets/images/nine.png
+    - assets/images/ten.png
+    - assets/images/eleven.png
+    - assets/images/twelve.png
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:

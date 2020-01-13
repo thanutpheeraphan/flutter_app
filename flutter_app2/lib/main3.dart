@@ -38,10 +38,9 @@ class _HomeState extends State<Home> {
     var image_list = [Image.asset('assets/images/zero.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80),Image.asset('assets/images/one.png',height: 60, width: 80)];
     var title_list = ["Scientific Programme","Personal Programme","Programme Overview","Authors","Posters","Venues & Plans","Exhibition","General Information","Programme of Events","Partners","Networking","News"];
 
-
-    var newCard3 = new Center( //has big size
+    var newCard1 = new Center( //has big size
       child: Card(
-        color: Color(0xff0190D6),
+        color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
@@ -51,7 +50,7 @@ class _HomeState extends State<Home> {
             width: 133,
             height: 100,
             child: Column(
-              children: <Widget>[Image.asset('assets/images/three.png'), Text('Programme Overview',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Scientific Programme',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -60,7 +59,7 @@ class _HomeState extends State<Home> {
 
     var newCard2 = new Center( //has big size
       child: Card(
-        color: Color(0xff0190D6),
+        color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
@@ -77,9 +76,9 @@ class _HomeState extends State<Home> {
       ),
     );
 
-    var newCard1 = new Center( //has big size
+    var newCard3 = new Center( //has big size
       child: Card(
-        color: Color(0xff0190D6),
+        color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
@@ -89,15 +88,16 @@ class _HomeState extends State<Home> {
             width: 133,
             height: 100,
             child: Column(
-              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Scientific Programme',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/three.png'), Text('Programme Overview',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
       ),
     );
+
     var newCard4 = new Center( //has big size
       child: Card(
-        color: Color(0xff0190D6),
+        color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
@@ -107,7 +107,7 @@ class _HomeState extends State<Home> {
             width: 133,
             height: 100,
             child: Column(
-              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Authors',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/four.png'), Text('Authors',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -115,7 +115,7 @@ class _HomeState extends State<Home> {
     );
     var newCard5 = new Center( //has big size
       child: Card(
-        color: Color(0xff0190D6),
+        color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
@@ -125,7 +125,7 @@ class _HomeState extends State<Home> {
             width: 133,
             height: 100,
             child: Column(
-              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Posters',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/five.png'), Text('Posters',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -133,7 +133,7 @@ class _HomeState extends State<Home> {
     );
     var newCard6 = new Center( //has big size
       child: Card(
-        color: Color(0xff0190D6),
+        color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
@@ -143,7 +143,7 @@ class _HomeState extends State<Home> {
             width: 133,
             height: 100,
             child: Column(
-              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Venus & Plans',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/six.png'), Text('Venus & Plans',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -151,7 +151,7 @@ class _HomeState extends State<Home> {
     );
     var newCard7 = new Center( //has big size
       child: Card(
-        color: Color(0xff0190D6),
+        color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
@@ -161,15 +161,16 @@ class _HomeState extends State<Home> {
             width: 133,
             height: 100,
             child: Column(
-              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Exhibition',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/seven.png'), Text('Exhibition',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
       ),
     );
+
     var newCard8 = new Center( //has big size
       child: Card(
-        color: Color(0xff0190D6),
+        color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
@@ -179,15 +180,16 @@ class _HomeState extends State<Home> {
             width: 133,
             height: 100,
             child: Column(
-              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('General Information',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/eight.png'), Text('General Information',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
       ),
     );
+
     var newCard9 = new Center( //has big size
       child: Card(
-        color: Color(0xff0190D6),
+        color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
@@ -197,7 +199,7 @@ class _HomeState extends State<Home> {
             width: 133,
             height: 100,
             child: Column(
-              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Programme   of Events',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/nine.png'), Text('Programme   of Events',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -206,7 +208,7 @@ class _HomeState extends State<Home> {
 
     var newCard10 = new Center( //has big size
       child: Card(
-        color: Color(0xff0190D6),
+        color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
@@ -216,7 +218,7 @@ class _HomeState extends State<Home> {
             width: 133,
             height: 100,
             child: Column(
-              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Partners',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/ten.png'), Text('Partners',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -225,7 +227,7 @@ class _HomeState extends State<Home> {
 
     var newCard11 = new Center( //has big size
       child: Card(
-        color: Color(0xff0190D6),
+        color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
@@ -235,7 +237,7 @@ class _HomeState extends State<Home> {
             width: 133,
             height: 100,
             child: Column(
-              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Networking',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/eleven.png'), Text('Networking',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -244,7 +246,7 @@ class _HomeState extends State<Home> {
 
     var newCard12 = new Center( //has big size
       child: Card(
-        color: Color(0xff0190D6),
+        color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
@@ -254,12 +256,13 @@ class _HomeState extends State<Home> {
             width: 133,
             height: 100,
             child: Column(
-              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('News',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/twelve.png'), Text('News',  style: TextStyle(height:1, fontSize: 20),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
       ),
     );
+
     var newGridView2 = new GridView(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
 
