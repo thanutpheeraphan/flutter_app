@@ -1,6 +1,6 @@
 import 'package:assorted_layout_widgets/assorted_layout_widgets.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app2/secondroute.dart';
+import 'package:flutter_app2/second_route.dart';
 
 class home_page extends StatefulWidget {
   @override
@@ -47,7 +47,7 @@ class _home_pageState extends State<home_page> {
         onTap: () {
         Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => SecondRoute()),
+        MaterialPageRoute(builder: (context) => second_route()),
         );
 
         },

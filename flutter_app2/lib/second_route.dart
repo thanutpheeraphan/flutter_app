@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
-class SecondRoute extends StatelessWidget {
+class second_route extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Second Route"),
+        title: Text("Personal Programme"),
       ),
       body: Center(
         child: RaisedButton(

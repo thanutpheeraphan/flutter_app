@@ -6,7 +6,7 @@ class fifth_route extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("5  Route"),
+        title: Text("Posters"),
       ),
       body: Center(
         child: RaisedButton(

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
-class ninth_route extends StatelessWidget {
+class twelve_route extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Programme of Events"),
+        title: Text("News"),
       ),
       body: Center(
         child: RaisedButton(

@@ -6,7 +6,7 @@ class tenth_route extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("10  Route"),
+        title: Text("Partners"),
       ),
       body: Center(
         child: RaisedButton(

@@ -6,9 +6,10 @@ import 'package:flutter_app2/eleventh_route.dart';
 import 'package:flutter_app2/ninth_route.dart';
 import 'package:flutter_app2/seventh_route.dart';
 import 'package:flutter_app2/tenth_route.dart';
+import 'package:flutter_app2/twelve_route.dart';
 import 'package:flutter_app2/zero_route.dart';
 import 'package:flutter_app2/first_route.dart';
-import 'package:flutter_app2/secondroute.dart';
+import 'package:flutter_app2/second_route.dart';
 import 'package:flutter_app2/third_route.dart';
 import 'package:flutter_app2/fourth_route.dart';
 import 'package:flutter_app2/fifth_route.dart';
@@ -44,7 +45,8 @@ class _HomeState extends State<Home> {
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
-            print('Card tapped.');
+            print('Card 1.');
+            Navigator.push(context,MaterialPageRoute(builder: (context) => first_route()));
           },
           child: Container(
             width: 133,
@@ -56,14 +58,16 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
-
     var newCard2 = new Center( //has big size
       child: Card(
         color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
-            print('Card tapped.');
+            print('Card 2.');
+            Navigator.push(context,MaterialPageRoute(builder: (context) => second_route()));
+
+
           },
           child: Container(
             width: 133,
@@ -75,14 +79,14 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
-
     var newCard3 = new Center( //has big size
       child: Card(
         color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
-            print('Card tapped.');
+            print('Card 3.');
+            Navigator.push(context,MaterialPageRoute(builder: (context) => third_route()));
           },
           child: Container(
             width: 133,
@@ -94,14 +98,14 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
-
     var newCard4 = new Center( //has big size
       child: Card(
         color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
-            print('Card tapped.');
+            print('Card 4.');
+            Navigator.push(context,MaterialPageRoute(builder: (context) => fourth_route()));
           },
           child: Container(
             width: 133,
@@ -119,7 +123,8 @@ class _HomeState extends State<Home> {
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
-            print('Card tapped.');
+            print('Card 5.');
+            Navigator.push(context,MaterialPageRoute(builder: (context) => fifth_route()));
           },
           child: Container(
             width: 133,
@@ -137,7 +142,8 @@ class _HomeState extends State<Home> {
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
-            print('Card tapped.');
+            print('Card 6.');
+            Navigator.push(context,MaterialPageRoute(builder: (context) => sixth_route()));
           },
           child: Container(
             width: 133,
@@ -155,7 +161,8 @@ class _HomeState extends State<Home> {
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
-            print('Card tapped.');
+            print('Card 7.');
+            Navigator.push(context,MaterialPageRoute(builder: (context) => seventh_route()));
           },
           child: Container(
             width: 133,
@@ -167,14 +174,14 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
-
     var newCard8 = new Center( //has big size
       child: Card(
         color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
-            print('Card tapped.');
+            print('Card 8.');
+            Navigator.push(context,MaterialPageRoute(builder: (context) => eighth_route()));
           },
           child: Container(
             width: 133,
@@ -186,14 +193,14 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
-
     var newCard9 = new Center( //has big size
       child: Card(
         color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
-            print('Card tapped.');
+            print('Card 9.');
+            Navigator.push(context,MaterialPageRoute(builder: (context) => ninth_route()));
           },
           child: Container(
             width: 133,
@@ -205,14 +212,14 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
-
     var newCard10 = new Center( //has big size
       child: Card(
         color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
-            print('Card tapped.');
+            print('Card 10.');
+            Navigator.push(context,MaterialPageRoute(builder: (context) => tenth_route()));
           },
           child: Container(
             width: 133,
@@ -224,14 +231,14 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
-
     var newCard11 = new Center( //has big size
       child: Card(
         color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
-            print('Card tapped.');
+            print('Card 11.');
+            Navigator.push(context,MaterialPageRoute(builder: (context) => eleventh_route()));
           },
           child: Container(
             width: 133,
@@ -243,14 +250,14 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
-
     var newCard12 = new Center( //has big size
       child: Card(
         color: Color(0xfffffdd0),
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
-            print('Card tapped.');
+            print('Card 12.');
+            Navigator.push(context,MaterialPageRoute(builder: (context) => twelve_route()));
           },
           child: Container(
             width: 133,
@@ -262,6 +269,7 @@ class _HomeState extends State<Home> {
         ),
       ),
     );
+
 
     var newGridView2 = new GridView(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -282,28 +290,7 @@ class _HomeState extends State<Home> {
       ),
     );
 
-    return new Column(
 
-      mainAxisSize: MainAxisSize.min,
-      children: <Widget>[Image.asset('assets/images/homescreen.png'), Flexible(child:newGridView2)],
-    );
-    return Scaffold(
-      body: new Column(
-        children: <Widget>[ Image.asset('assets/images/homescreen.png'), newGridView2],
-      ),
-    );
-
-    return Scaffold(
-      body: newGridView2,
-    );
-
-
-    return Scaffold(
-      body: new Column(
-        children: <Widget>[Image.asset('assets/images/homescreen.png'),newGridView2
-        ],
-      ),
-    );
   }
 }
 void main() {

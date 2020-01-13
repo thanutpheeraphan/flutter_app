@@ -8,7 +8,7 @@ import 'package:flutter_app2/seventh_route.dart';
 import 'package:flutter_app2/tenth_route.dart';
 import 'package:flutter_app2/zero_route.dart';
 import 'package:flutter_app2/first_route.dart';
-import 'package:flutter_app2/secondroute.dart';
+import 'package:flutter_app2/second_route.dart';
 import 'package:flutter_app2/third_route.dart';
 import 'package:flutter_app2/fourth_route.dart';
 import 'package:flutter_app2/fifth_route.dart';
@@ -151,7 +151,7 @@ class _HomeState extends State<Home> {
               Navigator.push(context,MaterialPageRoute(builder: (context) => first_route()));
             }
             if(index == 2) {
-              Navigator.push(context,MaterialPageRoute(builder: (context) => SecondRoute()));
+              Navigator.push(context,MaterialPageRoute(builder: (context) => second_route()));
             }
             if(index == 3){
               Navigator.push(context,MaterialPageRoute(builder: (context) => third_route()));
