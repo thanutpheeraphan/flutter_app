@@ -7,6 +7,7 @@ class first_route extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Scientific Progamme"),
+        backgroundColor: Color(0xff0190D6),
       ),
       body: Center(
         child: RaisedButton(
@@ -15,8 +16,16 @@ class first_route extends StatelessWidget {
             Navigator.pop(context);
 
           },
+
           child: Text('Go back!'),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+          Navigator.pop(context);
+        },
+        child: Icon(Icons.home),
+        backgroundColor: Color(0xff0190D6),
       ),
     );
   }
