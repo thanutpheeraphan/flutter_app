@@ -18,6 +18,7 @@ environment:
 
 dependencies:
   assorted_layout_widgets: ^1.0.14
+  google_fonts: ^0.3.2
   flutter:
     sdk: flutter
 
@@ -60,6 +61,11 @@ flutter:
     - assets/images/ten.png
     - assets/images/eleven.png
     - assets/images/twelve.png
+    - assets/images/next.png
+    - assets/images/arrow.png
+    - assets/images/right.png
+    - assets/images/right2.png
+    - assets/images/login.png
 
 
   # To add assets to your application, add an assets section, like this:
