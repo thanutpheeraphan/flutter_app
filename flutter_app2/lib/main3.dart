@@ -19,6 +19,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 class MyApp extends StatelessWidget {
   @override
+
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Flutter GridView',
@@ -42,7 +43,7 @@ class _HomeState extends State<Home> {
 
     var newCard1 = new Center( //has big size
       child: Card(
-        color: Color(0xffFFFDB7),
+        color: Color(0xfffffdd0), //Color(0xffFFFDB7)
         child: InkWell(
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {

@@ -7,7 +7,8 @@ class day1 extends StatelessWidget {
     return Scaffold(
 
       appBar: AppBar(
-        title: Text("Personal Programme"),
+        title: Text("25/03/20"),
+          centerTitle: true,
         backgroundColor:  Color(0xff0190D6)
       ),
       body: Center(

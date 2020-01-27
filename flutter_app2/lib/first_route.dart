@@ -33,6 +33,7 @@ class first_route extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xfffffdd0),
       appBar: AppBar(
+        centerTitle: true,
         title: Text("Scientific Progamme"),
         backgroundColor: Color(0xff0190D6),
       ),
