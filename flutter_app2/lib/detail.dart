@@ -55,3 +55,6 @@ class _MyDetailPageState extends State<MyDetailPage> {
     );
   }
 }
+
+//To fix the problem i have is that we put in another parameter in the superhero class and also change
+// the page here in this detail.dart to put another card/button where it can be pressed to reveal which hall the author is going to be talking in
