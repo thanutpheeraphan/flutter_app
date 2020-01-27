@@ -1,18 +1,17 @@
 import 'package:assorted_layout_widgets/assorted_layout_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_app2/eighth_route.dart';
-import 'package:flutter_app2/eleventh_route.dart';
-import 'package:flutter_app2/ninth_route.dart';
-import 'package:flutter_app2/seventh_route.dart';
-import 'package:flutter_app2/tenth_route.dart';
-import 'package:flutter_app2/zero_route.dart';
-import 'package:flutter_app2/first_route.dart';
-import 'package:flutter_app2/second_route.dart';
-import 'package:flutter_app2/third_route.dart';
-import 'package:flutter_app2/fourth_route.dart';
-import 'package:flutter_app2/fifth_route.dart';
-import 'package:flutter_app2/sixth_route.dart';
+import 'package:flutter_app2/GeneralInformation8/eighth_route.dart';
+import 'package:flutter_app2/Networking11/eleventh_route.dart';
+import 'package:flutter_app2/ProgramofEvents9/ninth_route.dart';
+import 'package:flutter_app2/Exhibition7/seventh_route.dart';
+import 'package:flutter_app2/Partners10/tenth_route.dart';
+import 'package:flutter_app2/ScientificProgram1/first_route.dart';
+import 'package:flutter_app2/PersonalProgram2/second_route.dart';
+import 'package:flutter_app2/ProgramOverview3/third_route.dart';
+import 'package:flutter_app2/Authors4/fourth_route.dart';
+import 'package:flutter_app2/Posters5/fifth_route.dart';
+import 'package:flutter_app2/Venus_Plans6/sixth_route.dart';
 import 'placeholder_widget.dart';
 
 class MyApp extends StatelessWidget {
@@ -127,6 +126,7 @@ class _HomeState extends State<Home> {
          child: new Container(
            //height: 10,
              child: new Card(
+
                elevation: 5.0,
                child: new Column(
                  //Image.asset('assets/images/one.png',height: 60, width: 80),
@@ -145,7 +145,7 @@ class _HomeState extends State<Home> {
          ),
           onTap: () {
             if(index == 0){
-              Navigator.push(context,MaterialPageRoute(builder: (context) => zero_route()));
+              Navigator.push(context,MaterialPageRoute(builder: (context) => first_route()));
             }
             if(index == 1){
               Navigator.push(context,MaterialPageRoute(builder: (context) => first_route()));

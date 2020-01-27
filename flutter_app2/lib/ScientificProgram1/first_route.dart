@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_app2/day1.dart';
+import 'package:flutter_app2/ScientificProgram1/day1.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class first_route extends StatelessWidget {
