@@ -23,10 +23,10 @@ class fourth2_route extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<SuperHero> superHeroes = new List();
-    superHeroes.add(new SuperHero("assets/images/technician.png", "Technician", "Best Worker ever"));
-    superHeroes.add(new SuperHero("assets/images/technician.png", "Technician2", "Best Worker ever2"));
-    superHeroes.add(new SuperHero("assets/images/technician.png", "Technician3", "Best Worker ever3"));
-    superHeroes.add(new SuperHero("assets/images/technician.png", "Technician4", "Best Worker ever4"));
+    superHeroes.add(new SuperHero("assets/images/account.png", "Technician", "Best Worker ever"));
+    superHeroes.add(new SuperHero("assets/images/account3.png", "Technician2", "Best Worker ever2"));
+    superHeroes.add(new SuperHero("assets/images/account3.png", "Technician3", "Best Worker ever3"));
+    superHeroes.add(new SuperHero("assets/images/one_2.png", "Technician4", "Best Worker ever4"));
 
     final makeListTile = ListTile(
         contentPadding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),

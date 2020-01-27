@@ -40,7 +40,7 @@ class _MyDetailPageState extends State<MyDetailPage> {
                   scale: 2.0,
                   child: Image.asset(superHero.image),
                 ),
-              ), 
+              ),
               Text(superHero.name),
               Card(
                   elevation: 8,
