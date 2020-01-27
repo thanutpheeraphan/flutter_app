@@ -11,6 +11,7 @@ import 'package:flutter_app2/ScientificProgram1/first_route.dart';
 import 'package:flutter_app2/PersonalProgram2/second_route.dart';
 import 'package:flutter_app2/ProgramOverview3/third_route.dart';
 import 'package:flutter_app2/Authors4/fourth_route.dart';
+import 'package:flutter_app2/Authors4/fourth2_route.dart';
 import 'package:flutter_app2/Posters5/fifth_route.dart';
 import 'package:flutter_app2/Venus_Plans6/sixth_route.dart';
 import 'placeholder_widget.dart';
@@ -113,7 +114,9 @@ class _HomeState extends State<Home> {
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
             print('Card 4.');
-            Navigator.push(context,MaterialPageRoute(builder: (context) => fourth_route()));
+           // Navigator.push(context,MaterialPageRoute(builder: (context) => fourth_route()));
+            Navigator.push(context,MaterialPageRoute(builder: (context) => fourth2_route()));
+
 
 
           },

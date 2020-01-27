@@ -15,7 +15,9 @@ class fifth_route extends StatelessWidget {
             Navigator.pop(context);
 
           },
-          child: Text('Go back!'),
+          child: Hero(
+            child: Image.asset('assets/images/homescreen.png'),
+          )
         ),
       ),
     );
