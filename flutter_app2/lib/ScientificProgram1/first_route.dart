@@ -56,7 +56,8 @@ class first_route extends StatelessWidget {
               },
                child: Container(
                  child: Row(
-                   children: <Widget>[Text('                   '),Image.asset('assets/images/arrow.png'), Text('      25/03/20 - Wednesday',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
+
+                   children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      25/03/20 - Wednesday',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
                  ),
                ),
             ),
@@ -75,7 +76,7 @@ class first_route extends StatelessWidget {
                 },
                 child: Container(
                   child: Row(
-                    children: <Widget>[Text('                   '),Image.asset('assets/images/arrow.png'), Text('      26/03/20 - Thursday',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
+                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      26/03/20 - Thursday',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
                   ),
                 ),
               ),
@@ -96,7 +97,7 @@ class first_route extends StatelessWidget {
                 },
                 child: Container(
                   child: Row(
-                    children: <Widget>[Text('                   '),Image.asset('assets/images/arrow.png'), Text('      27/03/20 - Friday',   style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
+                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      27/03/20 - Friday',   style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
                   ),
                 ),
               ),
