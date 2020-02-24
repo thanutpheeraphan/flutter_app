@@ -15,8 +15,8 @@ class fifth_route extends StatelessWidget {
             Navigator.pop(context);
 
           },
-          child: Hero(
-            child: Image.asset('assets/images/homescreen.png'),
+          child: Column(
+            children: <Widget>[Image.asset('assets/images/homescreen.png')],
           )
         ),
       ),

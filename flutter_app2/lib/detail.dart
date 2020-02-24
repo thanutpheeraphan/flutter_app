@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 
 import 'Authors4/fourth2_route.dart';
-import 'main3.dart';
+import 'main.dart';
 
 class MyDetailPage extends StatefulWidget {
   SuperHero _superHero;

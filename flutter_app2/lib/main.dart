@@ -316,6 +316,7 @@ class _HomeState extends State<Home> {
     return new Container(
       color: Color(0xff0190D6), //official color from poster color: Color(0xff0190D6)
       child: new Column(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
        children: <Widget>[Image.asset('assets/images/homescreen.png'), Flexible(child:newGridView2)],
       ),
     );
