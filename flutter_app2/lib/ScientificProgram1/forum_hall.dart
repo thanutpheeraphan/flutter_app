@@ -16,6 +16,7 @@ class forum_hall extends StatelessWidget {
       ),
       body: Center(
         child: ListView(
+          //ListWheelScrollView
           padding: const EdgeInsets.all(8),
           children: <Widget>[ Text(' Select a session: ',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
             Container(
@@ -370,6 +371,7 @@ class forum_hall extends StatelessWidget {
                 ),
               ),
             ),],
+          //itemExtent: 42,
 
 
         ),

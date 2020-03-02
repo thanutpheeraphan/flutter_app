@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_app2/GeneralInformation8/eighth_route.dart';
 import 'package:flutter_app2/Networking11/eleventh_route.dart';
+import 'package:flutter_app2/ProgramOverview3/third_route2.dart';
 import 'package:flutter_app2/ProgramofEvents9/ninth_route.dart';
 import 'package:flutter_app2/Exhibition7/seventh_route.dart';
 import 'package:flutter_app2/Partners10/tenth_route.dart';
@@ -93,7 +94,7 @@ class _HomeState extends State<Home> {
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
             print('Card 3.');
-            Navigator.push(context,MaterialPageRoute(builder: (context) => third_route()));
+            Navigator.push(context,MaterialPageRoute(builder: (context) => third_route2()));
           },
           child: Container(
             width: 133,

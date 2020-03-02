@@ -23,7 +23,7 @@ class fourth2_route extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<SuperHero> superHeroes = new List();
-    superHeroes.add(new SuperHero("assets/images/account.png", "Technician", "Best Worker ever"));
+    superHeroes.add(new SuperHero("assets/images/account3.png", "Technician", "Best Worker ever"));
     superHeroes.add(new SuperHero("assets/images/account3.png", "Technician2", "Best Worker ever2"));
     superHeroes.add(new SuperHero("assets/images/account3.png", "Technician3", "Best Worker ever3"));
     superHeroes.add(new SuperHero("assets/images/one_2.png", "Technician4", "Best Worker ever4"));

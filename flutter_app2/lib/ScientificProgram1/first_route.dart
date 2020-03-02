@@ -31,7 +31,7 @@ class first_route extends StatelessWidget {
       );
     }
     return Scaffold(
-      backgroundColor: Color(0xfffffdd0),
+      //backgroundColor: Color(0xfffffdd0),
       appBar: AppBar(
         centerTitle: true,
         title: Text("Scientific Progamme"),
@@ -56,7 +56,6 @@ class first_route extends StatelessWidget {
               },
                child: Container(
                  child: Row(
-
                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      25/03/20 - Wednesday',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
                  ),
                ),
