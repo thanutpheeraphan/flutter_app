@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_app2/ScientificProgram1/day1.dart';
+import 'package:flutter_app2/ScientificProgram1/day1_demo.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class first_route extends StatelessWidget {
@@ -53,7 +54,8 @@ class first_route extends StatelessWidget {
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
                 Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
-              },
+
+                },
                child: Container(
                  child: Row(
                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      25/03/20 - Wednesday',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],

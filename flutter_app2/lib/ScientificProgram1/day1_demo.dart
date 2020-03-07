@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_app2/ScientificProgram1/forum_hall_demo.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_app2/ScientificProgram1/forum_hall.dart';
 
-class day1 extends StatelessWidget {
+class day1_demo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,8 +27,7 @@ class day1 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => forum_hall()));
-                  Navigator.push(context,MaterialPageRoute(builder: (context) => forum_hall_demo()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => forum_hall()));
                 },
                 child: Container(
                   child: Row(
@@ -49,7 +47,7 @@ class day1 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => forum_hall()));
                 },
                 child: Container(
                   child: Row(
