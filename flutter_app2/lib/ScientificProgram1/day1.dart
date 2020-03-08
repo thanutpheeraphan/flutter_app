@@ -34,12 +34,14 @@ class day1 extends StatelessWidget {
                 child: Container(
                   child: Row(
 
-                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('     FORUM HALL',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
+                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('     Rayong Grand Ballroom',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
                   ),
                 ),
               ),
             ),
             Text('  '),
+
+            /*
             Container(
               height: 50,
               decoration: BoxDecoration(
@@ -80,6 +82,9 @@ class day1 extends StatelessWidget {
               ),
             ),],
 
+             */
+
+            ],
 
         ),
       ),
