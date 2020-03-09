@@ -12,7 +12,7 @@ class day1 extends StatelessWidget {
       appBar: AppBar(
         title: Text("25/03/20"),
           centerTitle: true,
-        backgroundColor:  Color(0xff0190D6)
+        //backgroundColor:  Color(0xff0190D6)
       ),
       body: Center(
         child: ListView(

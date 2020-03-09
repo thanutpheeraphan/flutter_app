@@ -36,7 +36,7 @@ class first_route extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text("Scientific Progamme"),
-        backgroundColor: Color(0xff0190D6),
+        //backgroundColor: Color(0xff0190D6),
       ),
       body: Center(
         child: ListView(
@@ -68,7 +68,7 @@ class first_route extends StatelessWidget {
               height: 50,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(8.0)),
-                color:  Color(0xffCEEEF5),
+                color:  Color(0xffD3D3D3),
               ),
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
@@ -77,7 +77,7 @@ class first_route extends StatelessWidget {
                 },
                 child: Container(
                   child: Row(
-                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      26/03/20 - Thursday',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
+                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      26/03/20 - Thursday',  style: GoogleFonts.notoSans(fontSize: 20, color: Colors.black),textAlign: TextAlign.center,)],
                   ),
                 ),
               ),
@@ -112,7 +112,7 @@ class first_route extends StatelessWidget {
           Navigator.pop(context);
         },
         child: Icon(Icons.home),
-        backgroundColor: Color(0xff0190D6),
+        //backgroundColor: Color(0xff0190D6),
       ),
     );
   }

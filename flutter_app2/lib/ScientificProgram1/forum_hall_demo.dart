@@ -59,8 +59,8 @@ class forum_hall_demo extends StatelessWidget {
         builder: (BuildContext context) {
           // return object of type Dialog
           return AlertDialog(
-            title: new Text("Registration"),
-            content: new Text("  การบรรยายพิเศษ (Keynote Speaker) (Rayong Grand Ballroom) “Development of Concrete Technology for Eastern Economic Corridor” "),
+            title: new Text("Special Lecture on “Development of Concrete Technology for Eastern Economic Corridor” "),
+            content: new Text("  การบรรยายพิเศษ (Keynote Speaker) (Rayong Grand Ballroom) “Development of Concrete Technology for Eastern Economic Corridor” \n\n“การทำนายพฤติกรรมคอนกรีตเพื่อการประยุกต์ใช้งานและจัดทำมาตรฐาน (Modeling of Concrete Behavior for Applications and Standard Establishment)โดย ศ.ดร. สมนึก ตั้งเติมสิริกุล"),
             actions: <Widget>[
               // usually buttons at the bottom of the dialog
               new FlatButton(
@@ -74,12 +74,38 @@ class forum_hall_demo extends StatelessWidget {
         },
       );
     }
+    void _showDialog4() {
+      // flutter defined function
+      showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          // return object of type Dialog
+          return AlertDialog(
+            title: new Text("TCA Concrete Practice Awards (Opening ACC15)"),
+            content: new Text(" นำเสนอผลงาน TCA Concrete Practice Awards (Gold Medal)  โครงการ Rose Wood Hotel Project โดย Aurecon Consulting (Thailand) Co.,ltd. "),
+            actions: <Widget>[
+              // usually buttons at the bottom of the dialog
+              new FlatButton(
+                child: new Text("Close"),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
+            ],
+          );
+        },
+      );
+    }
+
+
+
+
     return Scaffold(
 
       appBar: AppBar(
-        title: Text("Forum Hall Demo"),
+        title: Text("Wednesday"),
           centerTitle: true,
-        backgroundColor:  Color(0xff0190D6)
+        //backgroundColor:  Color(0xff0190D6)
       ),
       body: Center(
         child: ListView(
@@ -121,7 +147,7 @@ class forum_hall_demo extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[Text('      10:30-13:00',  style: TextStyle(fontStyle: FontStyle.italic)),
+                        children: <Widget>[Text('      10:30 - 13:00',  style: TextStyle(fontStyle: FontStyle.italic)),
                           Text('     Registration',  style: GoogleFonts.notoSans(fontSize: 16))],
                       ),
                     ),
@@ -166,7 +192,7 @@ class forum_hall_demo extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      13:00-13:30',  style: TextStyle(fontStyle: FontStyle.italic)),
+                          children: <Widget>[Text('      13:00 - 13:30',  style: TextStyle(fontStyle: FontStyle.italic)),
                             Text('     Welcome Speech',  style: GoogleFonts.notoSans(fontSize: 16))],
                         ),
                       ),
@@ -212,8 +238,8 @@ class forum_hall_demo extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      13:45-14:45',  style: TextStyle(fontStyle: FontStyle.italic)),
-                            Text('     Special Lecture on “Development of Concrete Technology for Eastern Economic Corridor',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                          children: <Widget>[Text('      13:45 - 14:45',  style: TextStyle(fontStyle: FontStyle.italic)),
+                            Text('     Special Lecture on “Development of Concrete Technology for Eastern Economic Corridor” ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
                         ),
                       ),
                     ],
@@ -233,6 +259,7 @@ class forum_hall_demo extends StatelessWidget {
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
                   //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  _showDialog4();
                 },
                 child: Container(
                   //margin: const EdgeInsets.all(15.0),
@@ -255,7 +282,7 @@ class forum_hall_demo extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      13:00-13:30',  style: TextStyle(fontStyle: FontStyle.italic)),
+                          children: <Widget>[Text('      14:45 - 15:45 ',  style: TextStyle(fontStyle: FontStyle.italic)),
                             Flexible(
                               child: Text('     TCA Concrete Practice Awards (Opening ACC15)', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
                             )
@@ -301,8 +328,8 @@ class forum_hall_demo extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      13:45-14:45',  style: TextStyle(fontStyle: FontStyle.italic)),
-                            Text('     Special Lecture on “Development of Concrete Technology for Eastern Economic Corridor”',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                          children: <Widget>[Text('      15:45 - 16:00',  style: TextStyle(fontStyle: FontStyle.italic)),
+                            Text('     Coffee break',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
                         ),
                       ),
                     ],
@@ -344,9 +371,9 @@ class forum_hall_demo extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      10:45-12:45',  style: TextStyle(fontStyle: FontStyle.italic)),
+                          children: <Widget>[Text('      16:00 - 16:30',  style: TextStyle(fontStyle: FontStyle.italic)),
                             Flexible(
-                              child: Text('     Keynote Lectures II - Hydration, Structure and Thermodyamics', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
+                              child: Text('     บทความรับเชิญ เรื่อง “บริบทคอนกรีตกับงานก่อสร้าง ภายใต้สมาคมซีเมนต์และคอนกรีตโลก (Global Concrete and Cement Association, GCCA)”', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
                             )
                             ],
                         ),
@@ -370,6 +397,7 @@ class forum_hall_demo extends StatelessWidget {
                   //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
                 },
                 child: Container(
+
                   //margin: const EdgeInsets.all(15.0),
                   //padding: const EdgeInsets.all(3.0),
 
@@ -379,8 +407,9 @@ class forum_hall_demo extends StatelessWidget {
 //
 
                   child: Row(
-                    children: <Widget>[Text('       '),Image.asset('assets/images/coffee.png'),
+                    children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
+                        width: c_width,
                         //margin: const EdgeInsets.all(15.0),
                         //padding: const EdgeInsets.all(3.0),
 //                      decoration: BoxDecoration(
@@ -389,8 +418,8 @@ class forum_hall_demo extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      12:45-14:00',  style: TextStyle(fontStyle: FontStyle.italic)),
-                            Text('     Lunch',  style: GoogleFonts.notoSans(fontSize: 16))],
+                          children: <Widget>[Text('      16:30 - 17:00',  style: TextStyle(fontStyle: FontStyle.italic)),
+                            Text('     16th International Congress on the Chemistry of Cement, ICCC 2023 in Bangkok Thailand',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
                         ),
                       ),
                     ],
@@ -432,9 +461,9 @@ class forum_hall_demo extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      14:00-15:45',  style: TextStyle(fontStyle: FontStyle.italic)),
+                          children: <Widget>[Text('      18:30 - ',  style: TextStyle(fontStyle: FontStyle.italic)),
                             Flexible(
-                              child: Text('     Oral Presentations 1 - Topic 1. Process Technology and Clinker Chemistry', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
+                              child: Text('     Welcoming Party and introducting the host of ACC16 , Srinakharinwirot University', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
                             )
                           ],
                         ),
@@ -445,93 +474,7 @@ class forum_hall_demo extends StatelessWidget {
               ),
             ),
             Text('  '),
-            Container(
-              height: 45,
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(8.0)),
-                  color: Color(0xffCEEEF5)
-              ),
-              //color: Color(0xffCEEEF5 ),
-              child: InkWell(
-                splashColor: Colors.white.withAlpha(30),
-                onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
-                },
-                child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
-                  child: Row(
-                    children: <Widget>[Text('       '),Image.asset('assets/images/coffee.png'),
-                      Container(
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      15:45-16:00',  style: TextStyle(fontStyle: FontStyle.italic)),
-                            Text('     Cofee Break',  style: GoogleFonts.notoSans(fontSize: 16))],
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-            Text('  '),
-            Container(
-              height: 45,
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(8.0)),
-                  color: Color(0xffCEEEF5)
-              ),
-              //color: Color(0xffCEEEF5 ),
-              child: InkWell(
-                splashColor: Colors.white.withAlpha(30),
-                onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
-                },
-                child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
-                  child: Row(
-                    children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
-                      Container(
-                        width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      16:00-17:45',  style: TextStyle(fontStyle: FontStyle.italic)),
-                            Flexible(
-                              child: Text('     Oral Presentations 4 - Topic 1. Process Technology and Clinker Chemistry', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
-                            )
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),],
+            ],
           //itemExtent: 42,
 
 
