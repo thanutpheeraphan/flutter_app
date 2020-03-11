@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_app2/ScientificProgram1/day1.dart';
+import 'package:flutter_app2/ScientificProgram1/welcome_speech_day1.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class forum_hall_demo extends StatelessWidget {
+class day1_grand_hall extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double c_width = MediaQuery.of(context).size.width*0.8;
@@ -105,7 +106,7 @@ class forum_hall_demo extends StatelessWidget {
       appBar: AppBar(
         title: Text("Wednesday"),
           centerTitle: true,
-        //backgroundColor:  Color(0xff0190D6)
+        backgroundColor:  Color(0xff000000)
       ),
       body: Center(
         child: ListView(
@@ -168,8 +169,8 @@ class forum_hall_demo extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  // Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
-                  _showDialog2();
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => welcome_speech_day1()));
+                  //_showDialog2();
 
                 },
                 child: Container(

@@ -73,7 +73,7 @@ class first_route extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => day1_demo()));
                 },
                 child: Container(
                   child: Row(

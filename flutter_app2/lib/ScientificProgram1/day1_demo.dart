@@ -9,9 +9,9 @@ class day1_demo extends StatelessWidget {
     return Scaffold(
 
       appBar: AppBar(
-        title: Text("25/03/20"),
+        title: Text("26/03/20 Demo"),
           centerTitle: true,
-        backgroundColor:  Color(0xff0190D6)
+        backgroundColor:  Color(0xff000000)
       ),
       body: Center(
         child: ListView(
@@ -32,7 +32,7 @@ class day1_demo extends StatelessWidget {
                 child: Container(
                   child: Row(
 
-                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('     FORUM HALL',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
+                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('     Rayong Grand Ballroom',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
                   ),
                 ),
               ),
@@ -51,7 +51,7 @@ class day1_demo extends StatelessWidget {
                 },
                 child: Container(
                   child: Row(
-                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      ROOM 1',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
+                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      Banphe Grand Ballroom',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
                   ),
                 ),
               ),
@@ -72,7 +72,7 @@ class day1_demo extends StatelessWidget {
                 },
                 child: Container(
                   child: Row(
-                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      ROOM 2',   style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
+                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      Samet Room ',   style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
                   ),
                 ),
               ),
