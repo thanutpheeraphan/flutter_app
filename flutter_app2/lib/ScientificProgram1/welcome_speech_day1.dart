@@ -16,9 +16,10 @@ class welcome_speech_day1 extends StatelessWidget {
       body: new Container(
         padding: const EdgeInsets.all(8),
         child: Column(
-
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('Welcome Speech') , Text('25/03/20    13:00 - 13:30') , Text('Rayong Grand Ballroom'), Text('กล่าวต้อนรับผู้เข้าร่วมการประชุมและกล่าวขอบคุณผู้สนับสนุนการจัดการประชุมมอบรางวัล TCA Concrete Practice Awards (Opening ACC15)'),Text(""),
+            Text('Welcome Speech',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,) , Text('25.03.20    13:00 - 13:30',  style: TextStyle(fontStyle: FontStyle.italic,fontSize: 15) , ) , Text('Rayong Grand Ballroom',  style: GoogleFonts.notoSans(fontSize: 15)), Text(""),Text('Description:',  style: GoogleFonts.notoSans(fontSize: 15)),Text('กล่าวต้อนรับผู้เข้าร่วมการประชุมและกล่าวขอบคุณผู้สนับสนุนการจัดการประชุมมอบรางวัล TCA Concrete Practice Awards (Opening ACC15)'),Text(""),
+            Text('Presenters',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
             Container(
 
               height: 45,
