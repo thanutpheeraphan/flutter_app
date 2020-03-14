@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_app2/ScientificProgram1/banphe_room2.dart';
 import 'package:flutter_app2/ScientificProgram1/rayong_grand_hall2.dart';
+import 'package:flutter_app2/ScientificProgram1/samet_room2.dart';
 import 'package:flutter_app2/ScientificProgram1/welcome_speech_day1.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_app2/ScientificProgram1/forum_hall.dart';
@@ -50,7 +52,7 @@ class day1_demo extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  Navigator.push(context,MaterialPageRoute(builder: (context) => forum_hall()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => banphe_room2()));
                 },
                 child: Container(
                   child: Row(
@@ -71,7 +73,7 @@ class day1_demo extends StatelessWidget {
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
 
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => samet_room2()));
                 },
                 child: Container(
                   child: Row(
