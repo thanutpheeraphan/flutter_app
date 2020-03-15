@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_app2/Posters5/fifth_route.dart';
-import 'package:flutter_app2/ScientificProgram1/day1.dart';
+import 'package:flutter_app2/ScientificProgram1/Day1/day1.dart';
 import 'package:flutter_app2/ScientificProgram1/first_route.dart';
 import 'package:flutter_app2/Venus_Plans6/sixth_route.dart';
 import 'package:flutter_app2/detail.dart';

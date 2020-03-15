@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_app2/ScientificProgram1/day1.dart';
+import 'package:flutter_app2/ScientificProgram1/Day1/day1.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class samet_room2 extends StatelessWidget {
+class samet_room3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double c_width = MediaQuery.of(context).size.width*0.8;
     return Scaffold(
 
       appBar: AppBar(
-        title: Text("Samet Room"),
+        title: Text("Rayong Grand Ballroom "),
           centerTitle: true,
         backgroundColor:  Color(0xff0190D6)
       ),
@@ -52,9 +52,9 @@ class samet_room2 extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      08:30 - 8:45',  style: TextStyle(fontStyle: FontStyle.italic)),
+                          children: <Widget>[Text('      08:30 - 11:30',  style: TextStyle(fontStyle: FontStyle.italic)),
                             Flexible(
-                              child: Text('     ICM-002 นวัตกรรมคอนกรีตเบาเซลล์กรีตอภัย ชาภิรมย์, ธีรวัฒน์ สินศิริ ', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
+                              child: Text('     การบรรยายพิเศษผลงานประกวด TCA Concrete Practice Award ', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
                             )
                           ],
                         ),
@@ -99,8 +99,8 @@ class samet_room2 extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      8:45 - 9:00',  style: TextStyle(fontStyle: FontStyle.italic)),
-                            Text('     ICM-004 Rheological property of cement containing supplementary cementitious material THANAKRIT CHANTRA ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                          children: <Widget>[Text('      08.30 - 09.00 ',  style: TextStyle(fontStyle: FontStyle.italic)),
+                            Text('     ENV-001 ผลกระทบของของเถ้าชีวมวลที่ไม่ปรับปรุงคุณภาพต่อสมรรถนะการไหล การเพิ่มขึ้นของอุณหภูมิ และกำลังอัดของคอนกรีตชนิดอัดตัวแน่นได้เอง ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
                         ),
                       ),
                     ],
@@ -142,8 +142,8 @@ class samet_room2 extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      9:00 - 9:15',  style: TextStyle(fontStyle: FontStyle.italic)),
-                            Text('     ICM-005 A direct test method to assess pozzolanic activity of fly ash for concrete Pornwit Anansup',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                          children: <Widget>[Text('      09.00 - 09.30 ',  style: TextStyle(fontStyle: FontStyle.italic)),
+                            Text('     ENV-002 ผลิตภัณฑ์คอนกรีตบล็อกประสานปูพื้นผสมเศษขวดพลาสติกสีเหลือทิ้ง ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
                         ),
                       ),
                     ],
@@ -185,9 +185,9 @@ class samet_room2 extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      9:15 - 9:30',  style: TextStyle(fontStyle: FontStyle.italic)),
+                          children: <Widget>[Text('      09.30 - 10.00 ',  style: TextStyle(fontStyle: FontStyle.italic)),
                             Flexible(
-                              child: Text('     ICM-006 ปูนซีเมนต์สำหรับงานคอนกรีตไม่อัดแรง Teepakorn Napharatsamee ', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
+                              child: Text('     MAT-033 INFLUENCES OF SODIUM HYDROXIDE SOLUTION AND CALCIUM CARBIDE RESIDUE TO FLY ASH RATIOS ON COMPRESSIVE STRENGTH AND ABRASION RESISTANCE OF ALKALI-ACTIVATED MORTAR 		', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
                             )
                             ],
                         ),
@@ -231,9 +231,9 @@ class samet_room2 extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      9:30 - 9:45',  style: TextStyle(fontStyle: FontStyle.italic)),
+                          children: <Widget>[Text('      10.00 - 10:30 ',  style: TextStyle(fontStyle: FontStyle.italic)),
                             Flexible(
-                              child: Text('     ICM-007 การพัฒนาวัสดุควบคุมกำลังต่ำที่ผลิตจากการกระตุ้นวัสดุเหลือใช้ในงานอุตสาหกรรมด้วยอัลคาไลน์เพื่อ นำไปใช้ประโยชน์ในงานวิศวกรรมผิวทาง  Teepakorn Napharatsamee', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
+                              child: Text('     MAT-034 Mechanical Properties of High Performance Concrete Using Ground Bottom Ash and Limestone Powder as a Cement Replacement ', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
                             )
                           ],
                         ),
@@ -277,9 +277,9 @@ class samet_room2 extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      9:45 - 10:00',  style: TextStyle(fontStyle: FontStyle.italic)),
+                          children: <Widget>[Text('      10.30 - 11:00',  style: TextStyle(fontStyle: FontStyle.italic)),
                             Flexible(
-                              child: Text('     ICM-008 Natural Rubber Powder for Construction Applications Nanticha Kalapat ', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
+                              child: Text('     MAT-036 ผลกระทบของซิลิกาฟูม เถ้าแกลบบด และเถ้าลอย ต่อการพฤติกรรมการก่อตัว กำลังอัด และการเปลี่ยนแปลงอุณหภูมิภายในซีเมนต์เพสต์ ', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
                             )
                           ],
                         ),
@@ -323,8 +323,11 @@ class samet_room2 extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      10:00 - 10:15',  style: TextStyle(fontStyle: FontStyle.italic)),
-                            Text('     ICM-009 Non-shrink grout  Phattarakamon Chaiyapoom', overflow: TextOverflow.ellipsis, maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                          children: <Widget>[Text('      11.00 - 11:30',  style: TextStyle(fontStyle: FontStyle.italic)),
+                            Flexible(
+                              child: Text('     MAT-037 INFLUENCE OF BURNISHING PROCESS ON SURFACE HARDNESS AND ABRASION RESISTANCE OF CONCRETE WITH DIFFERENT TYPES OF BINDER ', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
+                            )
+                          ],
                         ),
                       ),
                     ],
@@ -355,7 +358,7 @@ class samet_room2 extends StatelessWidget {
 //
 
                   child: Row(
-                    children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
+                    children: <Widget>[Text('       '),Image.asset('assets/images/coffee.png'),
                       Container(
                         width: c_width,
                         //margin: const EdgeInsets.all(15.0),
@@ -366,9 +369,9 @@ class samet_room2 extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      11:25 - 11:50',  style: TextStyle(fontStyle: FontStyle.italic)),
+                          children: <Widget>[Text('      11.30 - 11.45',  style: TextStyle(fontStyle: FontStyle.italic)),
                             Flexible(
-                              child: Text('     GTE-001 การศึกษากำลังอัดของส่วนผสมระหว่างดินลูกรังกับกากแคลเซียมคาร์ไบด์ ATTAPHOL - BUBPI', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
+                              child: Text('     Coffee Break ', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
                             )
                           ],
                         ),
@@ -412,11 +415,8 @@ class samet_room2 extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      11:25 - 11:50',  style: TextStyle(fontStyle: FontStyle.italic)),
-                            Flexible(
-                              child: Text('     GTE-002 COMPRESSIVE STRENGTH OF RECYCLED BASED MATERIALS IMPROVED BY POLYVINYLALCOHOL AND CEMENT Chaiwat waree', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
-                            )
-                          ],
+                          children: <Widget>[Text('      12.15 ',  style: TextStyle(fontStyle: FontStyle.italic)),
+                            Text('     ปิดการประชุมวิชาการคอนกรีตประจำปี ครั้งที่ 15 ', overflow: TextOverflow.ellipsis, maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
                         ),
                       ),
                     ],
@@ -425,6 +425,8 @@ class samet_room2 extends StatelessWidget {
               ),
             ),
             Text('  '),
+
+
           ],
           //itemExtent: 42,
 

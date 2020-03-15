@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_app2/ScientificProgram1/day1.dart';
+import 'package:flutter_app2/ScientificProgram1/Day1/day1.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class third_route2 extends StatelessWidget {

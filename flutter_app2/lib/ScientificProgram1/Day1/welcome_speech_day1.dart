@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_app2/ScientificProgram1/day1.dart';
+import 'package:flutter_app2/ScientificProgram1/Day1/day1.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class welcome_speech_day1 extends StatelessWidget {
@@ -32,27 +32,13 @@ class welcome_speech_day1 extends StatelessWidget {
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
                   // Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
-                  //_showDialog3();
 
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -81,23 +67,11 @@ class welcome_speech_day1 extends StatelessWidget {
 
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
 
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,

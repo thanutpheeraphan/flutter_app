@@ -1,19 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_app2/ScientificProgram1/day1_grand_hall.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/banphe_room2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/rayong_grand_hall2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/samet_room2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day3/banphe_room3.dart';
+import 'package:flutter_app2/ScientificProgram1/Day3/rayong_grand_hall3.dart';
+import 'package:flutter_app2/ScientificProgram1/Day3/samet_room3.dart';
+import 'package:flutter_app2/ScientificProgram1/Day1/welcome_speech_day1.dart';
+import 'package:flutter_app2/pdf_view.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_app2/ScientificProgram1/forum_hall.dart';
 
-class day1 extends StatelessWidget {
+import '../../download_files.dart';
+
+class day3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
 
       appBar: AppBar(
-        title: Text("25/03/20"),
+        title: Text("27/03/20"),
           centerTitle: true,
-          backgroundColor:  Color(0xff000000)
-
+        backgroundColor:  Color(0xff000000)
       ),
       body: Center(
         child: ListView(
@@ -29,8 +37,8 @@ class day1 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => forum_hall()));
-                  Navigator.push(context,MaterialPageRoute(builder: (context) => day1_grand_hall()));
+                  //Navigator.push(context,MaterialPageRoute(builder: (context) => rayong_grand_hall3()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => pdf_view()));
                 },
                 child: Container(
                   child: Row(
@@ -41,8 +49,6 @@ class day1 extends StatelessWidget {
               ),
             ),
             Text('  '),
-
-            /*
             Container(
               height: 50,
               decoration: BoxDecoration(
@@ -52,11 +58,11 @@ class day1 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => banphe_room3()));
                 },
                 child: Container(
                   child: Row(
-                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      ROOM 1',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
+                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      Banphe Grand Ballroom',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
                   ),
                 ),
               ),
@@ -73,19 +79,17 @@ class day1 extends StatelessWidget {
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
 
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => samet_room3()));
                 },
                 child: Container(
                   child: Row(
-                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      ROOM 2',   style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
+                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      Samet Room ',   style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
                   ),
                 ),
               ),
-            ),],
+            ),
+          ],
 
-             */
-
-            ],
 
         ),
       ),

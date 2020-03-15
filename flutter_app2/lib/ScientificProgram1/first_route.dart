@@ -2,8 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_app2/ScientificProgram1/day1.dart';
-import 'package:flutter_app2/ScientificProgram1/day1_demo.dart';
+import 'package:flutter_app2/ScientificProgram1/Day1/day1.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day3/day3.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class first_route extends StatelessWidget {
@@ -73,7 +74,7 @@ class first_route extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  Navigator.push(context,MaterialPageRoute(builder: (context) => day1_demo()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => day2()));
                 },
                 child: Container(
                   child: Row(
@@ -93,8 +94,8 @@ class first_route extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  _showDialog();
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  //_showDialog();
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => day3()));
                 },
                 child: Container(
                   child: Row(

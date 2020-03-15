@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_app2/ScientificProgram1/day1.dart';
-import 'package:flutter_app2/ScientificProgram1/welcome_speech_day1.dart';
+import 'package:flutter_app2/ScientificProgram1/Day1/day1.dart';
+import 'package:flutter_app2/ScientificProgram1/Day1/welcome_speech_day1.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class day1_grand_hall extends StatelessWidget {
+class rayong_grand_hall1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double c_width = MediaQuery.of(context).size.width*0.8;

@@ -17,11 +17,13 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  flutter_plugin_pdf_viewer: any
   table_calendar: ^2.2.1
   syncfusion_flutter_calendar: ^17.4.40-beta
   calendar_strip: ^1.0.4
   assorted_layout_widgets: ^1.0.14
   google_fonts: ^0.3.2
+
   english_words: '3.1.5'
   flutter:
     sdk: flutter
@@ -31,6 +33,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   dio : any
   path_provider : any
+  http: ^0.12.0+4
 
 dev_dependencies:
   flutter_test:
@@ -48,6 +51,7 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
+    - assets/my_resume.pdf
     - assets/images/zero.png
     - assets/images/one.png
     - assets/images/homescreen.png
