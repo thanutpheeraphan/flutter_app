@@ -6,7 +6,7 @@ import 'package:flutter_app2/ScientificProgram1/Day2/samet_room2.dart';
 import 'package:flutter_app2/ScientificProgram1/Day3/banphe_room3.dart';
 import 'package:flutter_app2/ScientificProgram1/Day3/rayong_grand_hall3.dart';
 import 'package:flutter_app2/ScientificProgram1/Day3/samet_room3.dart';
-import 'package:flutter_app2/ScientificProgram1/Day1/welcome_speech_day1.dart';
+import 'package:flutter_app2/ScientificProgram1/Day1/Info/welcome_speech_day1.dart';
 import 'package:flutter_app2/pdf_view.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_app2/ScientificProgram1/forum_hall.dart';
