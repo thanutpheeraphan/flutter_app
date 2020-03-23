@@ -76,7 +76,7 @@ class _MyHomePageState extends State<pdf_view>{
       isInit = false;
       isLoading = true;
     });
-    document = await PDFDocument.fromURL("http://www.pdf995.com/samples/pdf.pdf");
+    document = await PDFDocument.fromURL("https://www.ibm.com/downloads/cas/GJ5QVQ7X");
     setState(() {
       isLoading = false;
     });

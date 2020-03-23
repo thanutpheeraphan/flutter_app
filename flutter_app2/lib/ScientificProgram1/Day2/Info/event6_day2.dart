@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_app2/ScientificProgram1/Day1/day1.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class event1_day2 extends StatelessWidget {
+class event6_day2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double c_width = MediaQuery.of(context).size.width*0.8;
@@ -18,12 +18,11 @@ class event1_day2 extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('“Non Sludge and High Strength Technology for Spun Pile Production”',  style: GoogleFonts.notoSans(fontSize: 20,fontWeight: FontWeight.bold),textAlign: TextAlign.start,) ,
-            Text('26.03.20    8:30 - 8:45',  style: TextStyle(fontStyle: FontStyle.italic,fontSize: 15) , ) ,
+            Text('Running Safety Assesment of High Speed Train Over a Viaduct via Experiment and Bridge-Train Dynamic Interaction Simulation: A Case Study of Thailand Airport Rail Link Project',  style: GoogleFonts.notoSans(fontSize: 20,fontWeight: FontWeight.bold),textAlign: TextAlign.start,) ,
+            Text('26.03.20    9:45 - 10:00',  style: TextStyle(fontStyle: FontStyle.italic,fontSize: 15) , ) ,
             Text('Rayong Grand Ballroom',  style: GoogleFonts.notoSans(fontSize: 15)), Text(""),
             Text('Description:',  style: GoogleFonts.notoSans(fontSize: 15)),
-            Text('หัวข้อบรรยายพิเศษ  “Development of Construction Technology for EEC’s Infrastructure”'),
-            Text("Topic: “Non Sludge and High Strength Technology for Spun Pile Production” "),
+            Text("“การประเมินความปลอดภัยในการวิ่งของรถไฟความเร็วสูงบนสะพานด้วยวิธีการทดสอบและการวิเคราะห์แบบจำลองปฏิสัมพันธ์ระหว่างรถไฟและสะพาน: กรณีศึกษาโครงการรถไฟฟ้าแอร์พอร์ตเรลลิงค์(Running Safety Assesment of High Speed Train Over a Viaduct via Experiment and Bridge-Train Dynamic Interaction Simulation: A Case Study of Thailand Airport Rail Link Project)”"),
             Text(""),
             Text('Presenters',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
             Container(
@@ -49,7 +48,7 @@ class event1_day2 extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            Text('     Mr. Thanakit Kittimongkol (R&D, Infrastructure Business, KAO) ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                            Text('     ผศ.ดร.รัฐภูมิ ปริชาติปรีชา,มหาวิทยาลัยนเรศวร ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
                         ),
                       ),
                     ],
