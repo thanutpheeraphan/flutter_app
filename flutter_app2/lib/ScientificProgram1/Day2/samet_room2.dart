@@ -1,6 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_app2/ScientificProgram1/Day1/day1.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event29_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event30_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event31_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event32_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event33_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event34_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event35_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event36_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event37_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event38_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event39_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event40_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event41_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event42_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event43_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event44_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event45_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info3/event46_day2.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class samet_room2 extends StatelessWidget {
@@ -29,26 +47,15 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event29_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
 
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
+
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -76,26 +83,13 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event30_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -119,26 +113,13 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event31_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -162,26 +143,13 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event32_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -208,26 +176,13 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event33_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -254,26 +209,13 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event34_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -300,26 +242,13 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event35_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -343,26 +272,13 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event36_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -389,26 +305,14 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event37_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
 
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -435,26 +339,14 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
 
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/coffee.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -478,26 +370,13 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event39_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -521,26 +400,13 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event40_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -567,17 +433,9 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event41_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
@@ -613,26 +471,14 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event42_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
+
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -659,26 +505,13 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event43_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -705,26 +538,13 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event44_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -751,26 +571,13 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event45_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -797,26 +604,13 @@ class samet_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event46_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,

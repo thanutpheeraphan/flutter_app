@@ -1,12 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_app2/ScientificProgram1/Day1/day1.dart';
-import 'package:flutter_app2/ScientificProgram1/Day2/Info/event1_day2.dart';
-import 'package:flutter_app2/ScientificProgram1/Day2/Info/event2_day2.dart';
-import 'package:flutter_app2/ScientificProgram1/Day2/Info/event3_day2.dart';
-import 'package:flutter_app2/ScientificProgram1/Day2/Info/event4_day2.dart';
-import 'package:flutter_app2/ScientificProgram1/Day2/Info/event5_day2.dart';
-import 'package:flutter_app2/ScientificProgram1/Day2/Info/event6_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info1/event10_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info1/event11_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info1/event12_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info1/event13_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info1/event1_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info1/event2_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info1/event3_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info1/event4_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info1/event5_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info1/event6_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info1/event7_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info1/event8_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info1/event9_day2.dart';
 import 'package:flutter_app2/open_in_url.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -248,7 +255,6 @@ class rayong_grand_hall2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
                 },
                 child: Container(
 
@@ -283,26 +289,13 @@ class rayong_grand_hall2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event7_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -326,26 +319,14 @@ class rayong_grand_hall2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event8_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
+
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -372,26 +353,14 @@ class rayong_grand_hall2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event9_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
 
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -418,26 +387,14 @@ class rayong_grand_hall2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event10_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
+
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -464,26 +421,14 @@ class rayong_grand_hall2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event11_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
+
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -510,26 +455,13 @@ class rayong_grand_hall2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event12_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -556,26 +488,13 @@ class rayong_grand_hall2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event13_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -602,26 +521,12 @@ class rayong_grand_hall2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/coffee.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -651,14 +556,6 @@ class rayong_grand_hall2 extends StatelessWidget {
                   //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(

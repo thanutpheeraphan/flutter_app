@@ -1,6 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_app2/ScientificProgram1/Day1/day1.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event14_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event15_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event16_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event17_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event18_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event19_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event20_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event21_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event22_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event23_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event24_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event25_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event26_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event27_day2.dart';
+import 'package:flutter_app2/ScientificProgram1/Day2/Info2/event28_day2.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class banphe_room2 extends StatelessWidget {
@@ -29,26 +44,14 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event14_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
+
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -66,7 +69,6 @@ class banphe_room2 extends StatelessWidget {
             ),
             Text('  '),
             Container(
-
               height: 45,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(8.0)),
@@ -76,31 +78,22 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event15_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
+
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[Text('      8:45 - 9:00',  style: TextStyle(fontStyle: FontStyle.italic)),
-                            Text('     MAT-002 สมบัติเบื้องต้นของคอนกรีตที่มีเศษคอนกรีตเป็นมวลรวม Orathai Saenkanha ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                          children: <Widget>[Text('      08:45 - 9:00',  style: TextStyle(fontStyle: FontStyle.italic)),
+                            Flexible(
+                              child: Text('     MAT-002 สมบัติเบื้องต้นของคอนกรีตที่มีเศษคอนกรีตเป็นมวลรวม ', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
+                            )
+                          ],
                         ),
                       ),
                     ],
@@ -119,31 +112,22 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event16_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
+
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[Text('      9:00 - 9:15',  style: TextStyle(fontStyle: FontStyle.italic)),
-                            Text('     MAT-003 สมบัติของคอนกรีตผสมเถ้าก้นเตาบดละเอียด Sathit Larpthaikarn ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                            Flexible(
+                              child: Text('     MAT-003 สมบัติของคอนกรีตผสมเถ้าก้นเตาบดละเอียด ', overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16)),
+                            )
+                          ],
                         ),
                       ),
                     ],
@@ -162,26 +146,14 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event17_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
+
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -208,26 +180,14 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event18_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
+
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -254,26 +214,14 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event19_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
+
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -300,26 +248,13 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event20_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -343,26 +278,13 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event21_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -389,26 +311,13 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/coffee.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -432,26 +341,13 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event22_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -475,26 +371,13 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event23_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -521,26 +404,13 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event24_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -567,26 +437,13 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event25_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -613,26 +470,13 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event26_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -659,26 +503,13 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event27_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -705,26 +536,13 @@ class banphe_room2 extends StatelessWidget {
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
                 onTap: (){
-                  //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => event28_day2()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/info3.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -754,23 +572,10 @@ class banphe_room2 extends StatelessWidget {
                   //Navigator.push(context,MaterialPageRoute(builder: (context) => day1()));
                 },
                 child: Container(
-                  //margin: const EdgeInsets.all(15.0),
-                  //padding: const EdgeInsets.all(3.0),
-
-//                  decoration: BoxDecoration(
-//                      border: Border.all(color: Colors.green)
-//                  ),
-//
-
                   child: Row(
                     children: <Widget>[Text('       '),Image.asset('assets/images/coffee.png'),
                       Container(
                         width: c_width,
-                        //margin: const EdgeInsets.all(15.0),
-                        //padding: const EdgeInsets.all(3.0),
-//                      decoration: BoxDecoration(
-//                          border: Border.all(color: Colors.red)
-//                      ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
