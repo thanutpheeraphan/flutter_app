@@ -18,11 +18,11 @@ class event8_day1 extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('Welcoming Party and introducing the host of ACC16',  style: GoogleFonts.notoSans(fontSize: 20,fontWeight: FontWeight.bold),textAlign: TextAlign.start,) ,
-            Text('25.03.20    18:30 - ',  style: TextStyle(fontStyle: FontStyle.italic,fontSize: 15) , ) ,
+            Text('Introducing the host of ACC16',  style: GoogleFonts.notoSans(fontSize: 20,fontWeight: FontWeight.bold),textAlign: TextAlign.start,) ,
+            Text('25.03.20    17:00 - ',  style: TextStyle(fontStyle: FontStyle.italic,fontSize: 15) , ) ,
             Text('Rayong Grand Ballroom',  style: GoogleFonts.notoSans(fontSize: 15)), Text(""),
             Text('Description:',  style: GoogleFonts.notoSans(fontSize: 15)),
-            Text('งานเลี้ยงรับรอง และแนะนำเจ้าภาพ ACC16 มหาวิทยาลัยศรีนครินทรวิโรฒณ ห้องอาหาร (Dinner at Restaurant)'),Text(""),
+            Text('แนะนำเจ้าภาพ ACC16 มหาวิทยาลัยศรีนครินทรวิโรฒ ',style: GoogleFonts.notoSans(fontSize: 13),),Text(""),
             /*
             Text('Presenters',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
             Container(

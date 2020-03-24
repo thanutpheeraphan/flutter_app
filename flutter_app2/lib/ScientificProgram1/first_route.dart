@@ -10,33 +10,11 @@ import 'package:google_fonts/google_fonts.dart';
 class first_route extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    void _showDialog() {
-      // flutter defined function
-      showDialog(
-        context: context,
-        builder: (BuildContext context) {
-          // return object of type Dialog
-          return AlertDialog(
-            title: new Text("Alert Dialog title"),
-            content: new Text("Alert Dialog body"),
-            actions: <Widget>[
-              // usually buttons at the bottom of the dialog
-              new FlatButton(
-                child: new Text("Close"),
-                onPressed: () {
-                  Navigator.of(context).pop();
-                },
-              ),
-            ],
-          );
-        },
-      );
-    }
     return Scaffold(
       //backgroundColor: Color(0xfffffdd0),
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Scientific Progamme"),
+        title: Text("Scientific Progamme",style: GoogleFonts.notoSans(fontSize: 15),),
         //backgroundColor: Color(0xff0190D6),
       ),
       body: Center(
@@ -59,7 +37,7 @@ class first_route extends StatelessWidget {
                 },
                child: Container(
                  child: Row(
-                   children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      25/03/20 - Wednesday',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
+                   children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      25/03/20 - Wednesday',  style: GoogleFonts.oswald(fontSize: 16,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)],
                  ),
                ),
             ),
@@ -69,7 +47,7 @@ class first_route extends StatelessWidget {
               height: 50,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(8.0)),
-                color:  Color(0xffD3D3D3),
+                color: Color(0xffCEEEF5),
               ),
               child: InkWell(
                 splashColor: Colors.white.withAlpha(30),
@@ -78,7 +56,7 @@ class first_route extends StatelessWidget {
                 },
                 child: Container(
                   child: Row(
-                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      26/03/20 - Thursday',  style: GoogleFonts.notoSans(fontSize: 20, color: Colors.black),textAlign: TextAlign.center,)],
+                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      26/03/20 - Thursday',  style: GoogleFonts.oswald(fontSize: 16, color: Colors.black,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)],
                   ),
                 ),
               ),
@@ -99,7 +77,7 @@ class first_route extends StatelessWidget {
                 },
                 child: Container(
                   child: Row(
-                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      27/03/20 - Friday',   style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.center,)],
+                    children: <Widget>[Text('       '),Image.asset('assets/images/arrow.png'), Text('      27/03/20 - Friday',   style: GoogleFonts.oswald(fontSize: 16,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)],
                   ),
                 ),
               ),
@@ -108,6 +86,7 @@ class first_route extends StatelessWidget {
 
         ),
       ),
+      /*
       floatingActionButton: FloatingActionButton(
         onPressed: (){
           Navigator.pop(context);
@@ -115,6 +94,8 @@ class first_route extends StatelessWidget {
         child: Icon(Icons.home),
         //backgroundColor: Color(0xff0190D6),
       ),
+
+       */
     );
   }
 

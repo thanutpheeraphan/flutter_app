@@ -24,7 +24,7 @@ class event4_day2 extends StatelessWidget {
             Text('Description:',  style: GoogleFonts.notoSans(fontSize: 15)),
             Text("การซ่อมสนามบินสุวรรณภูมิ"),
             Text(""),
-            Text('Presenters',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
+            Text('Author',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
             Container(
 
               height: 45,
@@ -48,7 +48,7 @@ class event4_day2 extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            Text('     ดร.ทัศนะ นิลวาศ, บริษัท ไวส โปรเจ็ค คอนซัลติ้ง จำกัด ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                            Text('     ดร.ทัศนะ นิลวาศ, บริษัท ไวส โปรเจ็ค คอนซัลติ้ง จำกัด ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 14))],
                         ),
                       ),
                     ],

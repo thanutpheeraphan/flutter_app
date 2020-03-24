@@ -24,7 +24,7 @@ class event5_day2 extends StatelessWidget {
             Text('Description:',  style: GoogleFonts.notoSans(fontSize: 15)),
             Text("“Corrosion Protection for Industrial Buildings and Structures in Thailand”"),
             Text(""),
-            Text('Presenters',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
+            Text('Author',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
             Container(
 
               height: 45,
@@ -48,7 +48,7 @@ class event5_day2 extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            Text('     ดร.ยุทธ ปณิธานวงศ์, CPAC SCG ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                            Text('     ดร.ยุทธ ปณิธานวงศ์, CPAC SCG ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 14))],
                         ),
                       ),
                     ],

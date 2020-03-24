@@ -21,8 +21,6 @@ class event42_day2 extends StatelessWidget {
             Text(' MAT-021  Use of Polypropylene Fiber in Fly Ash Based Geopolymer Mortar',  style: GoogleFonts.notoSans(fontSize: 20,fontWeight: FontWeight.bold),textAlign: TextAlign.start,) ,
             Text('26.03.20    11:15 - 11:30',  style: TextStyle(fontStyle: FontStyle.italic,fontSize: 15) , ) ,
             Text('Samet Room',  style: GoogleFonts.notoSans(fontSize: 15)), Text(""),
-            Text('Description:',  style: GoogleFonts.notoSans(fontSize: 15)),
-            Text("MAT-021  Use of Polypropylene Fiber in Fly Ash Based Geopolymer Mortar"),
             Text(""),
             Text('Presenters',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
             Container(

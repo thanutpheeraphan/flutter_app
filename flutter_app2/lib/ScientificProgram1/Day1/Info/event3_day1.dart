@@ -23,7 +23,7 @@ class event3_day1 extends StatelessWidget {
             Text('Rayong Grand Ballroom',  style: GoogleFonts.notoSans(fontSize: 15)), Text(""),
             Text('Description:',  style: GoogleFonts.notoSans(fontSize: 15)),
             Text('“การทำนายพฤติกรรมคอนกรีตเพื่อการประยุกต์ใช้งานและจัดทำมาตรฐาน (Modeling of Concrete Behavior for Applications and Standard Establishment)”  '),Text(""),
-            Text('Presenters',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
+            Text('Author',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
             Container(
 
               height: 45,
@@ -47,7 +47,7 @@ class event3_day1 extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            Text('     ศ.ดร. สมนึก ตั้งเติมสิริกุล ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                            Text('     ศ.ดร. สมนึก ตั้งเติมสิริกุล ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 14))],
                         ),
                       ),
                     ],

@@ -22,9 +22,9 @@ class event6_day2 extends StatelessWidget {
             Text('26.03.20    9:45 - 10:00',  style: TextStyle(fontStyle: FontStyle.italic,fontSize: 15) , ) ,
             Text('Rayong Grand Ballroom',  style: GoogleFonts.notoSans(fontSize: 15)), Text(""),
             Text('Description:',  style: GoogleFonts.notoSans(fontSize: 15)),
-            Text("“การประเมินความปลอดภัยในการวิ่งของรถไฟความเร็วสูงบนสะพานด้วยวิธีการทดสอบและการวิเคราะห์แบบจำลองปฏิสัมพันธ์ระหว่างรถไฟและสะพาน: กรณีศึกษาโครงการรถไฟฟ้าแอร์พอร์ตเรลลิงค์(Running Safety Assesment of High Speed Train Over a Viaduct via Experiment and Bridge-Train Dynamic Interaction Simulation: A Case Study of Thailand Airport Rail Link Project)”"),
+            Text("“การประเมินความปลอดภัยในการวิ่งของรถไฟความเร็วสูงบนสะพานด้วยวิธีการทดสอบและการวิเคราะห์แบบจำลองปฏิสัมพันธ์ระหว่างรถไฟและสะพาน: กรณีศึกษาโครงการรถไฟฟ้าแอร์พอร์ตเรลลิงค์”"),
             Text(""),
-            Text('Presenters',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
+            Text('Author',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
             Container(
 
               height: 45,
@@ -48,7 +48,7 @@ class event6_day2 extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            Text('     ผศ.ดร.รัฐภูมิ ปริชาติปรีชา,มหาวิทยาลัยนเรศวร ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                            Text('     ผศ.ดร.รัฐภูมิ ปริชาติปรีชา,มหาวิทยาลัยนเรศวร ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 14))],
                         ),
                       ),
                     ],

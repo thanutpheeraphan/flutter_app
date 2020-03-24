@@ -19,7 +19,7 @@ class event12_day2 extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(' MAT-014 A study on the engineering properties of lightweight concrete with with palm ash reinforced with palm fiber by steam curing method.',  style: GoogleFonts.notoSans(fontSize: 20,fontWeight: FontWeight.bold),textAlign: TextAlign.start,) ,
-            Text('26.03.20    11:45 - 12:00',  style: TextStyle(fontStyle: FontStyle.italic,fontSize: 15) , ) ,
+            Text('26.03.20    11:30 - 11:45',  style: TextStyle(fontStyle: FontStyle.italic,fontSize: 15) , ) ,
             Text('Rayong Grand Ballroom',  style: GoogleFonts.notoSans(fontSize: 15)), Text(""),
             Text('Description:',  style: GoogleFonts.notoSans(fontSize: 15)),
             Text("MAT-014 A study on the engineering properties of lightweight concrete with with palm ash reinforced with palm fiber by steam curing method."),

@@ -25,7 +25,7 @@ class event3_day2 extends StatelessWidget {
             Text('หัวข้อบรรยายพิเศษ  “Development of Construction Technology for EEC’s Infrastructure”'),
             Text("Topic: “Investigation of Heat Transfer Behavior and Sound Insulation Relating to Biomimicry Design of 3D Printing Panel” "),
             Text(""),
-            Text('Presenters',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
+            Text('Author',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
             Container(
 
               height: 45,
@@ -49,7 +49,7 @@ class event3_day2 extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            Text('     คุณเฉลิมวุฒิ สงวนญาติ SCG ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                            Text('     คุณเฉลิมวุฒิ สงวนญาติ SCG ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 14))],
                         ),
                       ),
                     ],

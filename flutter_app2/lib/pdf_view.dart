@@ -16,7 +16,8 @@ class _MyHomePageState extends State<pdf_view>{
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("PDF"),
+          title: Text("Sponsors"),
+          centerTitle: true,
         ),
         body: Column(
           children: <Widget>[
@@ -37,12 +38,13 @@ class _MyHomePageState extends State<pdf_view>{
               children: <Widget>[
                 Expanded(
                   child: (MaterialButton(
-                    child: Text("Assets"),
+                    child: Text("Show Sponsors"),
                     onPressed: (){
                       loadFromAssets();
                     },
                   )),
                 ),
+                /*
                 Expanded(
                   child: (MaterialButton(
                     child: Text("URL"),
@@ -51,6 +53,8 @@ class _MyHomePageState extends State<pdf_view>{
                     },
                   )),
                 )
+
+                 */
               ],
             )
           ],
@@ -65,7 +69,7 @@ class _MyHomePageState extends State<pdf_view>{
       isInit = false;
       isLoading = true;
     });
-    document = await PDFDocument.fromAsset("assets/my_resume.pdf");
+    document = await PDFDocument.fromAsset("assets/Sponsors.pdf");
     setState(() {
       isLoading = false;
     });

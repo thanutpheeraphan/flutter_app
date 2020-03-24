@@ -25,7 +25,7 @@ class event1_day2 extends StatelessWidget {
             Text('หัวข้อบรรยายพิเศษ  “Development of Construction Technology for EEC’s Infrastructure”'),
             Text("Topic: “Non Sludge and High Strength Technology for Spun Pile Production” "),
             Text(""),
-            Text('Presenters',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
+            Text('Author',  style: GoogleFonts.notoSans(fontSize: 20),textAlign: TextAlign.start,),
             Container(
 
               height: 45,
@@ -49,7 +49,7 @@ class event1_day2 extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            Text('     Mr. Thanakit Kittimongkol (R&D, Infrastructure Business, KAO) ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 16))],
+                            Text('     Mr. Thanakit Kittimongkol (R&D, Infrastructure Business, KAO) ',  overflow: TextOverflow.ellipsis , maxLines: 1, style: GoogleFonts.notoSans(fontSize: 14))],
                         ),
                       ),
                     ],

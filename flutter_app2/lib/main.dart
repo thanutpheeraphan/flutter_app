@@ -1,6 +1,8 @@
 import 'package:assorted_layout_widgets/assorted_layout_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_app2/Authors4/fourth_route_final.dart';
 import 'package:flutter_app2/GeneralInformation8/eighth_route.dart';
 import 'package:flutter_app2/Networking11/eleventh_route.dart';
 import 'package:flutter_app2/ProgramOverview3/third_route2.dart';
@@ -15,6 +17,7 @@ import 'package:flutter_app2/Authors4/fourth_route.dart';
 import 'package:flutter_app2/Authors4/fourth2_route.dart';
 import 'package:flutter_app2/Posters5/fifth_route.dart';
 import 'package:flutter_app2/Venus_Plans6/sixth_route.dart';
+import 'package:flutter_app2/pdf_view.dart';
 import 'placeholder_widget.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -54,7 +57,7 @@ class _HomeState extends State<Home> {
             height: 100,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Scientific Programme',   style: GoogleFonts.notoSans(fontSize: 12),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/one_2.png'), Text('Scientific   Programme',   style: GoogleFonts.oswald(fontSize: 12,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -77,7 +80,7 @@ class _HomeState extends State<Home> {
             height: 100,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[Image.asset('assets/images/two.png'), Text('Personal Programme',  style: GoogleFonts.notoSans(fontSize: 12),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/two.png'), Text('Personal    Programme',  style: GoogleFonts.oswald(fontSize: 12,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -91,14 +94,14 @@ class _HomeState extends State<Home> {
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
             print('Card 3.');
-            Navigator.push(context,MaterialPageRoute(builder: (context) => third_route2()));
+            Navigator.push(context,MaterialPageRoute(builder: (context) => tenth_route()));
           },
           child: Container(
             width: 133,
             height: 100,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[Image.asset('assets/images/three.png'), Text('Programme Overview',   style: GoogleFonts.notoSans(fontSize: 12),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/three.png'), Text('Programme Overview',   style: GoogleFonts.oswald(fontSize: 12,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -113,7 +116,7 @@ class _HomeState extends State<Home> {
           onTap: () {
             print('Card 4.');
            // Navigator.push(context,MaterialPageRoute(builder: (context) => fourth_route()));
-            Navigator.push(context,MaterialPageRoute(builder: (context) => fourth2_route()));
+            Navigator.push(context,MaterialPageRoute(builder: (context) => fourth_route_final()));
 
 
 
@@ -123,7 +126,7 @@ class _HomeState extends State<Home> {
             height: 100,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[Image.asset('assets/images/four.png'), Text('Authors',   style: GoogleFonts.notoSans(fontSize: 12),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/four.png'), Text('Authors',   style: GoogleFonts.oswald(fontSize: 12,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -144,7 +147,7 @@ class _HomeState extends State<Home> {
             height: 100,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[Image.asset('assets/images/five.png'), Text('Posters',  style: GoogleFonts.notoSans(fontSize: 12),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/five.png'), Text('Posters',  style: GoogleFonts.oswald(fontSize: 12,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -165,7 +168,7 @@ class _HomeState extends State<Home> {
             height: 100,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[Image.asset('assets/images/six.png'), Text('Venus & Plans',   style: GoogleFonts.notoSans(fontSize: 12),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/six.png'), Text('Venus & Plans',   style: GoogleFonts.oswald(fontSize: 12,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -186,7 +189,7 @@ class _HomeState extends State<Home> {
             height: 100,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[Image.asset('assets/images/seven.png'), Text('Exhibition',   style: GoogleFonts.notoSans(fontSize: 12),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/seven.png'), Text('Exhibition',   style: GoogleFonts.oswald(fontSize: 12,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -207,7 +210,7 @@ class _HomeState extends State<Home> {
             height: 100,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[Image.asset('assets/images/eight.png'), Text('General Information',  style: GoogleFonts.notoSans(fontSize: 12),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/eight.png'), Text('General Information',  style: GoogleFonts.oswald(fontSize: 12,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -228,7 +231,7 @@ class _HomeState extends State<Home> {
             height: 100,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[Image.asset('assets/images/nine.png'), Text('Programme of Events',   style: GoogleFonts.notoSans(fontSize: 12),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/nine.png'), Text('Programme of Events',   style: GoogleFonts.oswald(fontSize: 12,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -242,14 +245,15 @@ class _HomeState extends State<Home> {
           splashColor: Colors.blue.withAlpha(30),
           onTap: () {
             print('Card 10.');
-            Navigator.push(context,MaterialPageRoute(builder: (context) => tenth_route()));
+            //Navigator.push(context,MaterialPageRoute(builder: (context) => tenth_route()));
+            Navigator.push(context,MaterialPageRoute(builder: (context) => pdf_view()));
           },
           child: Container(
             width: 133,
             height: 100,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[Image.asset('assets/images/ten.png'), Text('Partners',   style: GoogleFonts.notoSans(fontSize: 12),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/ten.png'), Text('Sponsors',   style: GoogleFonts.oswald(fontSize: 12,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -270,7 +274,7 @@ class _HomeState extends State<Home> {
             height: 100,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[ Image.asset('assets/images/eleven.png'), Text('Networking',   style: GoogleFonts.notoSans(fontSize: 12),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[ Image.asset('assets/images/eleven.png'), Text('Networking',   style: GoogleFonts.oswald(fontSize: 12,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -291,7 +295,7 @@ class _HomeState extends State<Home> {
             height: 100,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[Image.asset('assets/images/twelve.png'), Text('News',  style: GoogleFonts.notoSans(fontSize: 12),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
+              children: <Widget>[Image.asset('assets/images/twelve.png'), Text('News',  style: GoogleFonts.oswald(fontSize: 12,fontWeight: FontWeight.bold),textAlign: TextAlign.center,)], //,color: Color(0xffFCCA3C)
             ),
           ),
         ),
@@ -323,7 +327,10 @@ class _HomeState extends State<Home> {
 
 }
 void main() {
+
   runApp(new MyApp());
+
+
 }
 
 

@@ -52,7 +52,7 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/my_resume.pdf
+    - assets/Sponsors.pdf
     - assets/images/zero.png
     - assets/images/one.png
     - assets/images/homescreen.png
